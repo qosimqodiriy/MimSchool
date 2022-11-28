@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url('../fonts/Poppins.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Inter';
+   src: url('../fonts/Inter.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Firs-Neue';
+   src: url('../fonts/TTFirsNeue.ttf') format('truetype');
+}

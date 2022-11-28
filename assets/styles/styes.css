@@ -1,0 +1,204 @@
+.heading-1 {
+   font-weight: 600;
+   font-size: 104px;
+   line-height: 120px;
+   font-family: 'Firs-Neue';
+}
+
+.heading-2 {
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 48px;
+   font-family: 'Firs-Neue';
+}
+
+.heading-3 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   font-family: 'Poppins';
+}
+
+.heading-4 {
+   font-weight: 600;
+   font-size: 80px;
+   line-height: 103px;
+   font-family: 'Firs-Neue';
+}
+
+.heading-5 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+   font-family: 'Poppins';
+}
+
+.heading-6 {
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 40px;
+   font-family: 'Poppins';
+}
+
+.caps-subtitle {
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 36px;
+   font-family: 'Firs-Neue';
+}
+
+.subtitle {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+   font-family: 'Poppins';
+}
+
+.subtitle-2 {
+   font-weight: 4+500;
+   font-size: 14px;
+   line-height: 28px;
+   font-family: 'Poppins';
+}
+
+.overline-1 {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   font-family: 'Poppins';
+}
+
+.overline-m {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   font-family: 'Poppins';
+}
+
+.body {
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   font-family: 'Poppins';
+}
+
+
+
+@media (max-width: 1440px) {
+   .heading-1 {
+      font-size: 72px;
+      line-height: 86px;
+   }
+
+   .heading-2 {
+      font-size: 36px;
+      line-height: 42px;
+   }
+
+   .heading-3 {
+      font-size: 20px;
+      line-height: 32px;
+   }
+
+   .heading-4 {
+      font-size: 64px;
+      line-height: 80px;
+   }
+}
+
+
+
+@media (max-width: 1024px) {
+   .heading-1 {
+      font-size: 54px;
+      line-height: 68px;
+   }
+
+   .heading-2 {
+      font-size: 32px;
+      line-height: 36px;
+   }
+
+   .heading-3 {
+      font-size: 16px;
+      line-height: 30px;
+   }
+
+   .heading-4 {
+      font-size: 52px;
+      line-height: 58px;
+   }
+
+   .heading-5 {
+      font-size: 20px;
+      line-height: 30px;
+   }
+
+   .caps-subtitle {
+      font-size: 22px;
+      line-height: 30px;
+   }
+
+   .subtitle {
+      font-size: 16px;
+      line-height: 28px;
+   }
+}
+
+
+
+@media (max-width: 768px) {
+   .heading-1 {
+      font-size: 40px;
+      line-height: 48px;
+   }
+
+   .heading-2 {
+      font-size: 28px;
+      line-height: 36px;
+   }
+
+   .heading-3 {
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .heading-4 {
+      font-size: 40px;
+      line-height: 48px;
+   }
+
+   .heading-5 {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .heading-6 {
+      font-size: 24px;
+      line-height: 36px;
+      font-family: 'Firs-Neue';
+   }
+
+   .caps-subtitle {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .subtitle {
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .overline-1 {
+      font-size: 12px;
+      line-height: 20px;
+   }
+
+   .overline-m {
+      font-size: 14px;
+   }
+}

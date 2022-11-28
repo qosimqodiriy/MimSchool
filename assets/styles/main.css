@@ -1,0 +1,71 @@
+@import url('./font.css');
+@import url('./styes.css');
+@import url('./tailwind.css');
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: 'Poppins', 'Inter', sans-serif;
+}
+
+a.nuxt-link-exact-active {
+   font-weight: 700 !important;
+   color: #0f0 !important;
+}
+
+::-webkit-scrollbar {
+   width: 7px;
+   background: #0C081A;
+}
+
+::-webkit-scrollbar-thumb {
+   width: 7px;
+   background: #171717;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+.myContainer {
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 10px;
+   overflow: hidden;
+   max-width: 1460px;
+}
+
+.btn {
+   transition: 0.5s;
+   background: #2857FD;
+   border: 1px solid transparent;
+}
+
+.btn:hover {
+   background: transparent;
+   border: 1px solid white;
+}
+
+.bgGradient {
+   backdrop-filter: blur(28.5px);
+   background: rgba(39, 33, 57, 0.16);
+   box-shadow: inset 0px 0px 84px rgba(182, 179, 193, 0.12);
+}
+
+select::-ms-expand {
+   display: none;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background: url('../images/arrow-down-s.png') no-repeat right center;
+   background-position-x: calc(100% - 16px);
+   background-size: 24px;
+}

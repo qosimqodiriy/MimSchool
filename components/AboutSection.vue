@@ -1,0 +1,59 @@
+<template>
+   <div class="w-full bg-white-secondary py-60 md:py-72 lg:py-84 xl:py-100 2xl:py-120">
+      <div class="myContainer space-y-56 md:space-y-64 lg:space-y-76 xl:space-y-90">
+         <div>
+            <h2 class="heading-2 text-Rich-Black mb-56 max-w-900 md:mb-60 lg:mb-70">Biz professional va shaxsiy rivojlanish uchun keng doiradagi kurslarni taklif etamiz.</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-24">
+               <about-card count="5" name="ta" title="Kurslarimiz" />
+               <about-card count="4" name="oy" title="davom etadi" />
+               <about-card count="12" name="ta" title="mentorlarimiz" />
+            </div>
+         </div>
+
+         <div>
+            <p class="overline-1 text-Cool-Grey mb-8 uppercase text-center md:text-start">O‘qituvchilar</p>
+            <h2 class="heading-2 text-Rich-Black mb-40 md:mb-32 text-center md:text-start">Akademiyada o’qitadigan ustozlar</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 md:gap-14 lg:gap-20">
+               <teacher-card v-for="item in 5" :key="item" :show="true" />
+            </div>
+         </div>
+
+         <div class="grid grid-cols-1 lg:grid-cols-5 gap-24">
+            <div class="w-full min-h-370 rounded-24 lg:col-span-2 overflow-hidden">
+               <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.8473588317468!2d69.32958134260727!3d41.33725130445068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd19634d7a12e177a!2sMimsoft%20-%20Software%20Development%20Company!5e0!3m2!1sru!2s!4v1669630196888!5m2!1sru!2s" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="w-full rounded-24 bg-white-primary lg:col-span-3 p-28 pb-25 pt-40 md:px-30 lg:px-40">
+               <p class="heading-2 text-Rich-Black mb-40 md:mb-44 lg:mb-52">Bizning manzilimiz</p>
+               <div class="w-full flex flex-col lg:flex-row items-center gap-40 mb-40">
+                  <div class="w-full">
+                     <p class="overline-1 text-Rich-Black mb-8">Contacts:</p>
+                     <p class="subtitle text-Rich-Black">+998 99 123 45 67</p>
+                  </div>
+                  <div class="w-full">
+                     <p class="overline-1 text-Rich-Black mb-8">Email:</p>
+                     <p class="subtitle text-Rich-Black">index@mimsoftedu.com</p>
+                  </div>
+               </div>
+               <p class="overline-1 text-Rich-Black mb-8">Address:</p>
+               <p class="subtitle text-Rich-Black">Republic of Uzbekistan, Tashkent city, Mirzo-Ulugbek district, Tepa Masjid 4</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</template>
+
+
+<script>
+import { defineAsyncComponent } from 'vue';
+
+const AboutCard = defineAsyncComponent(() => import('@/components/AboutCard.vue'))
+const TeacherCard = defineAsyncComponent(() => import('@/components/TeacherCard.vue'))
+
+export default {
+   components: {
+      AboutCard,
+      TeacherCard,
+   }
+}
+</script>
