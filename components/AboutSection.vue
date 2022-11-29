@@ -42,18 +42,3 @@
       </div>
    </div>
 </template>
-
-
-<script>
-import { defineAsyncComponent } from 'vue';
-
-const AboutCard = defineAsyncComponent(() => import('@/components/AboutCard.vue'))
-const TeacherCard = defineAsyncComponent(() => import('@/components/TeacherCard.vue'))
-
-export default {
-   components: {
-      AboutCard,
-      TeacherCard,
-   }
-}
-</script>
