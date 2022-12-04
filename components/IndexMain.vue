@@ -1,27 +1,44 @@
 <template>
-   <div class="main w-full bg-black">
-      <div class="myContainer py-30 md:py-36 h-full">
-         <div class="">
-            <h1 class="heading-1 text-white-primary text-center mb-40">IT sohasini qulay ravishda o‘rganing</h1>
-            <div class="flex justify-center mb-100 md:mb-60 lg:mb-80"><button class="caps-subtitle btn text-white-primary px-60 md:px-80 py-10 md:py-15 rounded-54">Yozilish</button></div>
+   <div class="main w-full bg-black flex items-center justify-center relative">
+      <div class="myContainer py-30 md:py-36 h-full z-40">
+         <div class="animate__animated animate__fadeInUp">
+            <h1 class="heading-4 text-white-primary text-center mb-40">Zamonaviy kasblarni zamonaviy uslubda o'rganamiz</h1>
+            <div class="flex justify-center mb-100 md:mb-60 lg:mb-80">
+               <a href="#register" class="caps-subtitle btn text-white-primary px-60 md:px-80 py-10 md:py-15 rounded-54">Yozilish</a>
+            </div>
 
             <div class="flex justify-center">
                <div class="inline-flex py-20 px-18 rounded-32 linear">
                   <div class="flex flex-wrap justify-center items-center">
-                     <div v-for="item in 5" :key="item" class="px-10 md:px-20 py-10 md:py-15 card">
-                        <p class="heading-6 text-white-primary mb-8">Front-end</p>
-                        <p class="subtitle text-white-primary">2 500 000 sum</p>
+                     <div v-for="item in lessons" :key="item.type" class="px-10 md:px-20 py-10 md:py-15 card">
+                        <p class="heading-6 text-white-primary text-center mb-8">{{ item.name }}</p>
+                        <p class="subtitle text-white-primary">{{ item.price }}</p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
+      <div class="absolute top-0 w-full h-full left-0 overflow-hidden z-30">
+         <video class="w-full h-full object-cover" src="@/assets/videos/main.mp4" muted loop autoplay></video>
+      </div>
    </div>
 </template>
 
+<script>
+import lessons from '/api/lessons'
+export default {
+   data() {
+      return {
+         lessons: lessons
+      }
+   },
+}
+</script>
+
 <style scoped>
    .main {
+      overflow: hidden;
       min-height: calc(100vh - 92px);
    }
 

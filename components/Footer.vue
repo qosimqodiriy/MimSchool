@@ -13,17 +13,22 @@
             <div class="flex gap-40">
                <div class="w-50%">
                   <h3 class="heading-6 text-white-primary mb-24">Kurslar</h3>
-                  <p class="subtitle-m text-Spanish-Gray mb-16">Front-end</p>
-                  <p class="subtitle-m text-Spanish-Gray mb-16">Back-end</p>
-                  <p class="subtitle-m text-Spanish-Gray mb-16">Android</p>
-                  <p class="subtitle-m text-Spanish-Gray">IOS</p>
+                  <div class="flex flex-col gap-12">
+                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Faundation</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/frontend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Front-end</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/backend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Back-end</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Android</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IOS</nuxt-link>
+                  </div>
                </div>
 
                <div class="w-50%">
                   <h3 class="heading-6 text-white-primary mb-24">Menyular</h3>
-                  <p class="subtitle-m text-Spanish-Gray mb-16">Biz haqimizda</p>
-                  <p class="subtitle-m text-Spanish-Gray mb-16">Kurslarimiz</p>
-                  <p class="subtitle-m text-Spanish-Gray">Ustozlar</p>
+                  <div class="flex flex-col gap-12">
+                     <nuxt-link @click.native="scrollToTop" to="/about" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Biz haqimizda</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kurslarimiz</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/teachers" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Ustozlar</nuxt-link>
+                  </div>
                </div>
             </div>
 
@@ -62,7 +67,12 @@
 
 <script>
 export default {
-   
+   methods: {
+      scrollToTop() {
+         window.scrollTo(0, 0)
+         this.isMenuOpen = false
+      },
+   },
 }
 </script>
 

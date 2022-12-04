@@ -15,6 +15,7 @@
 a.nuxt-link-exact-active {
    font-weight: 700 !important;
    color: #0f0 !important;
+   /* color: #2857FD !important; */
 }
 
 ::-webkit-scrollbar {

@@ -4,11 +4,7 @@
          <p class="heading-2 text-Rich-Black mb-40 md:mb-52 lg:mb-64 2xl:mb-80">Kurs uchun ro'yxatdan o'ting yoki bepul maslahat oling</p>
          <p class="overline-1 text-Spanish-Gray mb-8 md:mb-14 xl:mb-24">Front-end Kurs narxi</p>
          <div class="flex items-end gap-10">
-            <h3 v-if="course == 1" class="heading-2 text-Jet">1 000 000</h3>
-            <h3 v-else-if="course == 2" class="heading-2 text-Jet">1 500 000</h3>
-            <h3 v-else-if="course == 3" class="heading-2 text-Jet">1 800 000</h3>
-            <h3 v-else-if="course == 4" class="heading-2 text-Jet">1 500 000</h3>
-            <h3 v-else-if="course == 5" class="heading-2 text-Jet">1 600 000</h3>
+            <h3 v-for="item in lessons" :key="item.type" v-show="(item.type == course)" class="heading-2 text-Jet">{{ item.price }}</h3>
             <p class="caps-subtitle text-Jet">sum</p>
          </div>
       </div>
@@ -17,11 +13,7 @@
          <input type="text" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 placeholder:text-Spanish-Gray outline-none" placeholder="Ismingizni kiritng" />
          <input type="number" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 placeholder:text-Spanish-Gray outline-none" placeholder="Telefon raqamingiz" />
          <select v-model="course" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 outline-none">
-            <option class="text-Gunmetal w-full max-w-full" :value="1">Faundation</option>
-            <option class="text-Gunmetal w-full max-w-full" :value="2">Front-End</option>
-            <option class="text-Gunmetal w-full max-w-full" :value="3">Back-End</option>
-            <option class="text-Gunmetal w-full max-w-full" :value="4">Android</option>
-            <option class="text-Gunmetal w-full max-w-full" :value="5">IOS</option>
+            <option v-for="(item, index) in lessons" :key="index.type" class="text-Gunmetal w-full max-w-full" :value="item.type">{{ item.name }}</option>
          </select>
          <p class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle bg-blue text-center text-white-primary w-full rounded-32 md:rounded-40">Yozilish</p>
       </div>
@@ -29,13 +21,15 @@
 </template>
 
 <script>
-   export default {
-      data() {
-         return {
-            course: 1,
-         }
+import lessons from '@/api/lessons'
+export default {
+   data() {
+      return {
+         course: 1,
+         lessons: lessons
       }
    }
+}
 </script>
 
 <style scoped>

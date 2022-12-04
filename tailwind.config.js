@@ -8,7 +8,37 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        blowUp: {
+          '0%': { transform: 'scale(0)' },
+          '100%': { transform: 'scale(1)' },
+        },
+        blowDown: {
+          '0%': {
+            transform: 'scale(1)',
+          },
+          '100%': {
+            transform: 'scale(0)',
+          },
+        },
+        pulse: {
+          '0%, 100%': {
+            opacity: '1',
+            // transform: 'scale(1)',
+          },
+          '50%': {
+            opacity: '0.7',
+            // transform: 'scale(0.99)',
+          },
+        }
+      },
+      animation: {
+        blowUp: 'blowUp .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards',
+        blowDown: 'blowDown .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards',
+        pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+      }
+    },
     colors: {
       'white': {
         'primary': '#ffffff',
@@ -391,6 +421,9 @@ module.exports = {
       '85%': '85%',
       '90%': '90%',
       '100%': '100%',
+    },
+    backgroundImage: {
+      'map': "url('/assets/images/map.png')",
     },
   },
   plugins: [require('@tailwindcss/line-clamp')],

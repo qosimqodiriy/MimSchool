@@ -8,15 +8,42 @@
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-30 lg:gap-40">
-               <div class="w-full">
+               <div 
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                  data-aos-offset="100"
+                  data-aos-once="false"
+                  data-aos-mirror="true"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out"
+
+                  class="w-full">
                   <p class="heading-5 text-Rich-Black mb-18">643 bo'sh ish o'rinlari</p>
                   <p class="subtitle text-Rich-Black">veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot</p>
                </div>
-               <div class="w-full">
+               <div 
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                  data-aos-offset="120"
+                  data-aos-once="false"
+                  data-aos-mirror="true"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out"
+
+                  class="w-full">
                   <p class="heading-5 text-Rich-Black mb-18">5 000 000 so‘m</p>
                   <p class="subtitle text-Rich-Black">boshlang'ich ish haqi uchun talablari</p>
                </div>
-               <div class="w-full">
+               <div 
+                  data-aos="fade-left"
+                  data-aos-delay="700"
+                  data-aos-offset="140"
+                  data-aos-once="false"
+                  data-aos-mirror="true"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out"
+                  
+                  class="w-full">
                   <p class="heading-5 text-Rich-Black mb-18">6 oy</p>
                   <p class="subtitle text-Rich-Black">platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli</p>
                </div>
@@ -32,8 +59,3 @@ export default {
    
 }
 </script>
-
-
-<style lang="">
-   
-</style>
