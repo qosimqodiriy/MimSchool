@@ -1,6 +1,6 @@
 <template>
    <div>
-      <main-section :type="5" name="IOS" />
+      <main-section :type="5" />
       <vacancy-box />
       <course-about />
       <question-register />

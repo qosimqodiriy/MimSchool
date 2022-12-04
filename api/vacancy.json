@@ -1,0 +1,52 @@
+[
+   {
+      "id": 1,
+      "month": 6,
+      "count": 452,
+      "path": "faundation",
+      "price": "1 523 400",
+      "priceDescription": "boshlang'ich ish haqi uchun talablari",
+      "countDescription": "veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot",
+      "monthDescription": "platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli"
+   },
+   {
+      "id": 2,
+      "month": 5,
+      "count": 648,
+      "path": "frontend",
+      "price": "1 523 400",
+      "priceDescription": "boshlang'ich ish haqi uchun talablari",
+      "countDescription": "veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot",
+      "monthDescription": "platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli"
+   },
+   {
+      "id": 3,
+      "month": 7,
+      "count": 394,
+      "path": "backend",
+      "price": "1 523 400",
+      "priceDescription": "boshlang'ich ish haqi uchun talablari",
+      "countDescription": "veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot",
+      "monthDescription": "platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli"
+   },
+   {
+      "id": 4,
+      "month": 8,
+      "count": 485,
+      "path": "android",
+      "price": "1 523 400",
+      "priceDescription": "boshlang'ich ish haqi uchun talablari",
+      "countDescription": "veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot",
+      "monthDescription": "platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli"
+   },
+   {
+      "id": 5,
+      "month": 9,
+      "count": 684,
+      "path": "ios",
+      "price": "1 523 400",
+      "priceDescription": "boshlang'ich ish haqi uchun talablari",
+      "countDescription": "veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot",
+      "monthDescription": "platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli"
+   }
+]

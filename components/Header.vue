@@ -7,22 +7,38 @@
             </nuxt-link>
 
             <div class="hidden lg:flex items-center gap-30">
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/faundation">Faundation</nuxt-link>
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/frontend">Front-End</nuxt-link>
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/backend">Back-End</nuxt-link>
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/android">Android</nuxt-link>
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/ios">IOS</nuxt-link>
+               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Faundation</nuxt-link>
+               <nuxt-link to="/frontend" @click.native="scrollToTop" class="text-white-primary text-18">Front-End</nuxt-link>
+               <nuxt-link to="/backend" @click.native="scrollToTop" class="text-white-primary text-18">Back-End</nuxt-link>
+               <nuxt-link to="/android" @click.native="scrollToTop" class="text-white-primary text-18">Android</nuxt-link>
+               <nuxt-link to="/ios" @click.native="scrollToTop" class="text-white-primary text-18">IOS</nuxt-link>
             </div>
 
             <div class="hidden md:flex items-center gap-30 lg:gap-40">
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/teachers">Ustozlar</nuxt-link>
-               <nuxt-link class="text-white-primary text-18" @click.native="scrollToTop" to="/about">Biz haqimizda</nuxt-link>
+               <nuxt-link to="/teachers" @click.native="scrollToTop" class="text-white-primary text-18">Ustozlar</nuxt-link>
+               <nuxt-link to="/about" @click.native="scrollToTop" class="text-white-primary text-18">Biz haqimizda</nuxt-link>
             </div>
 
             <div class="block md:hidden text-white-primary">
-               <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+               <svg @click="burger = true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="none" d="M0 0H24V24H0z"/>
+                  <path d="M21 18v2H3v-2h18zM6.596 3.904L8.01 5.318 4.828 8.5l3.182 3.182-1.414 1.414L2 8.5l4.596-4.596zM21 11v2h-9v-2h9zm0-7v2h-9V4h9z" fill="rgba(255,255,255,1)"/>
                </svg>
+            </div>
+         </div>
+      </div>
+
+      <div class="burger_div w-full min-h-screen fixed md:hidden overflow-hidden top-0 right-0 z-40" :class="burger ? 'active' : ''">
+         <div @click="burger = false" class="w-full z-40 min-h-screen absolute top-0 left-0"></div>
+         <div class="w-80% burger_bg bg-Rich-Black z-50 min-h-screen absolute top-0 right-0 px-10 pt-50">
+            <div class="flex flex-col items-center gap-16">
+               <nuxt-link @click.native="scrollToTop" to="/faundation" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">Faundation</nuxt-link>
+               <nuxt-link @click.native="scrollToTop" to="/frontend" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">Front-End</nuxt-link>
+               <nuxt-link @click.native="scrollToTop" to="/backend" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">Back-End</nuxt-link>
+               <nuxt-link @click.native="scrollToTop" to="/android" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">Android</nuxt-link>
+               <nuxt-link @click.native="scrollToTop" to="/ios" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">IOS</nuxt-link>
+               <nuxt-link @click.native="scrollToTop" to="/teachers" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">Ustozlar</nuxt-link>
+               <nuxt-link @click.native="scrollToTop" to="/about" class="font-inter text-18 font-semibold transition-all duration-200 text-white-primary">Biz haqimizda</nuxt-link>
             </div>
          </div>
       </div>
@@ -35,15 +51,41 @@ export default {
 
    data() {
       return {
+         burger: false,
          isMenuOpen: false,
       }
    },
 
    methods: {
       scrollToTop() {
-         window.scrollTo(0, 0)
-         this.isMenuOpen = false
-      },
+         this.burger = false;
+         window.scrollTo(0, 0);
+         this.isMenuOpen = false;
+         console.log("Hello");
+      }
    },
 }
 </script>
+
+
+
+<style scoped lang="css">
+   .burger_div {
+      transition: 0.5s;
+      transform: translateX(768px);
+      /* backdrop-filter: blur(0px); */
+   }
+   .burger_div.active {
+      transform: translateX(0px);
+      /* backdrop-filter: blur(10px); */
+      /* background: linear-gradient(5deg,
+        rgba(25, 24, 31, 0) 10%,
+        rgba(25, 24, 31, 0.8) 100%); */
+   }
+   .burger_bg {
+      backdrop-filter: blur(10px);
+      background: linear-gradient(5deg,
+        rgba(22, 21, 24, 0) 10%,
+        rgba(8, 8, 8, 0.8) 100%);
+   }
+</style>

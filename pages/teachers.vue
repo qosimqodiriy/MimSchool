@@ -1,6 +1,6 @@
 <template>
    <div class="bg-black">
-      <main-box :type="1" title="Mentorlar" />
+      <main-box :type="1" />
       <teacher-section />
    </div>
 </template>

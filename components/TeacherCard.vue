@@ -1,5 +1,5 @@
 <template>
-   <div class="w-full h-full min-h-235 overflow-hidden rounded-24 md:rounded-32 relative card">
+   <div class="w-full h-full min-h-235 overflow-hidden rounded-24 md:rounded-32 relative teacherCard">
       <img class="w-full h-full max-h-513 object-cover object-center" src="@/assets/images/teacher.png" alt="">
 
       <!-- <div v-if="show" class="absolute bottom-0 left-0 w-full p-20 md:p-25 lg:p-30">
@@ -42,8 +42,8 @@ export default {
 </script>
 
 
-<style scoped>
-.card {
+<style lang="css" scoped>
+.teacherCard {
    background: linear-gradient(180deg, rgba(39, 33, 57, 0) 42.19%, rgba(39, 33, 57, 0.8) 100%);
 }
 
@@ -57,7 +57,7 @@ export default {
    transition: 0.5s;
    padding: 15px 10px;
    align-items: center;
-   justify-content: start;
+   justify-content: flex-start;
    flex-direction: column;
    backdrop-filter: blur(5px);
    transition-delay: 0.8s;
@@ -67,12 +67,12 @@ export default {
    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.card:hover .content {
+.teacherCard:hover .content {
    bottom: 0;
    transition-delay: 0s;
 }
 
-.card .content .contentBx h3 {
+.teacherCard .content .contentBx h3 {
    opacity: 0;
    transition: 0.5s;
    text-align: center;
@@ -81,12 +81,12 @@ export default {
    transform: translateY(-20px);
 }
 
-.card:hover .content .contentBx h3 {
+.teacherCard:hover .content .contentBx h3 {
    opacity: 1;
    transform: translateY(0px);
 }
 
-.card .content .contentBx p {
+.teacherCard .content .contentBx p {
    opacity: 0;
    /* font-weight: 300; */
    transition: 0.5s;
@@ -97,18 +97,18 @@ export default {
    transform: translateY(-20px);
 }
 
-.card:hover .content .contentBx p {
+.teacherCard:hover .content .contentBx p {
    opacity: 1;
    transform: translateY(0px);
 }
 
-.card .content .sci {
+.teacherCard .content .sci {
    position: relative;
    display: flex;
    align-items: center;
 }
 
-.card .content .sci li {
+.teacherCard .content .sci li {
    list-style: none;
    margin: 0 10px;
    opacity: 0;
@@ -117,12 +117,12 @@ export default {
    transition-delay: calc(0.15s * var(--i));
 }
 
-.card:hover .content .sci li {
+.teacherCard:hover .content .sci li {
    opacity: 1;
    transform: translateY(0px);
 }
 
-.card .content .sci li a {
+.teacherCard .content .sci li a {
    color: #fff;
    font-size: 24px;
    margin: 0;

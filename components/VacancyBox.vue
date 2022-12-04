@@ -18,8 +18,8 @@
                   data-aos-easing="ease-in-out"
 
                   class="w-full">
-                  <p class="heading-5 text-Rich-Black mb-18">643 bo'sh ish o'rinlari</p>
-                  <p class="subtitle text-Rich-Black">veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot</p>
+                  <p class="heading-5 text-Rich-Black mb-18">{{ data.count }} bo'sh ish o'rinlari</p>
+                  <p class="subtitle text-Rich-Black">{{ data.countDescription }}</p>
                </div>
                <div 
                   data-aos="fade-left"
@@ -31,8 +31,8 @@
                   data-aos-easing="ease-in-out"
 
                   class="w-full">
-                  <p class="heading-5 text-Rich-Black mb-18">5 000 000 so‘m</p>
-                  <p class="subtitle text-Rich-Black">boshlang'ich ish haqi uchun talablari</p>
+                  <p class="heading-5 text-Rich-Black mb-18">{{ data.price }} so‘m</p>
+                  <p class="subtitle text-Rich-Black">{{ data.priceDescription }}</p>
                </div>
                <div 
                   data-aos="fade-left"
@@ -44,8 +44,8 @@
                   data-aos-easing="ease-in-out"
                   
                   class="w-full">
-                  <p class="heading-5 text-Rich-Black mb-18">6 oy</p>
-                  <p class="subtitle text-Rich-Black">platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli</p>
+                  <p class="heading-5 text-Rich-Black mb-18">{{ data.month }} oy</p>
+                  <p class="subtitle text-Rich-Black">{{ data.monthDescription }}</p>
                </div>
             </div>
          </div>
@@ -55,7 +55,42 @@
 
 
 <script>
+import vacancy from '@/api/vacancy'
 export default {
-   
+   data() {
+      return {
+         data: {
+            id: '',
+            path: '',
+            price: '',
+            month: '',
+            count: '',
+            priceDescription: "boshlang'ich ish haqi uchun talablari",
+            countDescription: "veb-dasturchilar hh.uz saytida 2022-yil iyul oyida ma’lumot",
+            monthDescription: "platformada intensiv mashg'ulotlar birinchi ishingizni olish uchun etarli"
+         },
+         pathName: ''
+      }
+   },
+
+   mounted() {
+      this.pathName = this.$router.currentRoute.name
+
+      if (this.pathName == 'faundation') {
+         this.data = vacancy[0]   
+      } 
+      else if (this.pathName == 'frontend') {
+         this.data = vacancy[1]   
+      } 
+      else if (this.pathName == 'backend') {
+         this.data = vacancy[2]   
+      } 
+      else if (this.pathName == 'android') {
+         this.data = vacancy[3]   
+      } 
+      else if (this.pathName == 'ios') {
+         this.data = vacancy[4]   
+      }
+   }
 }
 </script>

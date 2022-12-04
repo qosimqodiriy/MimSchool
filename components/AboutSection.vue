@@ -46,7 +46,7 @@
          </div>
 
          <div class="grid grid-cols-1 lg:grid-cols-5 gap-24">
-            <div class="w-full min-h-370 rounded-24 lg:col-span-2 overflow-hidden bg-white-primary bg-map bg-center bg-cover">
+            <div class="w-full min-h-370 rounded-24 lg:col-span-2 overflow-hidden bg-white-primary map">
                <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.8473588317468!2d69.32958134260727!3d41.33725130445068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd19634d7a12e177a!2sMimsoft%20-%20Software%20Development%20Company!5e0!3m2!1sru!2s!4v1669630196888!5m2!1sru!2s" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
@@ -90,3 +90,10 @@ export default{
    // },
 }
 </script>
+
+<style scoped>
+   .map {
+      background: url('@/assets/images/map.png') no-repeat center center;
+      background-size: cover;
+   }
+</style>

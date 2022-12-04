@@ -1,6 +1,6 @@
 <template>
    <div>
-      <main-section :type="1" name="Faundation" />
+      <main-section :type="1" />
       <vacancy-box />
       <course-about />
       <question-register />

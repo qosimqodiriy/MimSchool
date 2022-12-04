@@ -1,6 +1,6 @@
 <template>
    <div>
-      <main-section :type="4" name="Android" />
+      <main-section :type="4" />
       <vacancy-box />
       <course-about />
       <question-register />

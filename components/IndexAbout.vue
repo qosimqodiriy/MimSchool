@@ -7,13 +7,13 @@
                <h2 class="heading-2 text-Jet max-w-600 mb-32">Mimsoft Akademiya o‘quv markazi haqida</h2>
                <p class="overline-2 mb-40">Mimsoft akademy был основан 22 июля 2018 года и на данный момент оперируют 8 больших филиалов в самых удобных локациях Ташкента и оборудованы передовыми технологиями, созданы лучшие условия для обучения на высоком уровне. Обучение ведётся по специальной программе, являющейся одной из лучших! Наш центр – первый в Узбекистане, который использует данную программу в лицензионном формате.</p>
                <div class="flex flex-col lg:flex-row items-center gap-20">
-                  <p class="text-14 md:text-16 lg:text-18 font-semibold py-15 lg:py-20 px-56 w-full lg:w-auto text-center text-white-primary rounded-40 bg-blue hover:bg-white-primary hover:text-blue border border-white-primary hover:border-blue cursor-pointer uppercase transition-all duration-500">Ko‘proq ko‘rish</p>
-                  <p class="text-14 md:text-16 lg:text-18 font-semibold py-15 lg:py-20 px-56 w-full lg:w-auto text-center text-blue rounded-40 bg-white-primary hover:bg-blue hover:text-white-primary border-blue border cursor-pointer uppercase transition-all duration-500">Kursga yozilish</p>
+                  <router-link to="/about" class="text-14 md:text-16 lg:text-18 font-semibold py-15 lg:py-20 px-56 w-full lg:w-auto text-center text-white-primary rounded-40 bg-blue hover:bg-white-primary hover:text-blue border border-white-primary hover:border-blue cursor-pointer uppercase transition-all duration-500">Ko‘proq ko‘rish</router-link>
+                  <a href="#register" class="text-14 md:text-16 lg:text-18 font-semibold py-15 lg:py-20 px-56 w-full lg:w-auto text-center text-blue rounded-40 bg-white-primary hover:bg-blue hover:text-white-primary border-blue border cursor-pointer uppercase transition-all duration-500">Kursga yozilish</a>
                </div>
             </div>
 
             <div class="w-full md:col-span-3 overflow-hidden rounded-32 md:rounded-40">
-               <img class="w-full" src="@/assets/images/about.png" alt="">
+               <img class="w-full hover:scale-110 transition-all duration-500 delay-150" src="@/assets/images/about.png" alt="">
             </div>
          </div>
       </div>

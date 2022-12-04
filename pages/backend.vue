@@ -1,6 +1,6 @@
 <template>
    <div>
-      <main-section :type="3" name="Back-End" />
+      <main-section :type="3" />
       <vacancy-box />
       <course-about />
       <question-register />

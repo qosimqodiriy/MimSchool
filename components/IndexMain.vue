@@ -10,10 +10,10 @@
             <div class="flex justify-center">
                <div class="inline-flex py-20 px-18 rounded-32 linear">
                   <div class="flex flex-wrap justify-center items-center">
-                     <div v-for="item in lessons" :key="item.type" class="px-10 md:px-20 py-10 md:py-15 card">
+                     <router-link :to="item.link" v-for="item in lessons" :key="item.type" class="px-10 md:px-20 py-10 md:py-15 card">
                         <p class="heading-6 text-white-primary text-center mb-8">{{ item.name }}</p>
                         <p class="subtitle text-white-primary">{{ item.price }}</p>
-                     </div>
+                     </router-link>
                   </div>
                </div>
             </div>

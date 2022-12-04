@@ -422,9 +422,6 @@ module.exports = {
       '90%': '90%',
       '100%': '100%',
     },
-    backgroundImage: {
-      'map': "url('/assets/images/map.png')",
-    },
   },
   plugins: [require('@tailwindcss/line-clamp')],
 }

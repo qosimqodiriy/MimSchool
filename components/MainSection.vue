@@ -41,7 +41,7 @@
                      data-aos-easing="ease-in-out">
                      
                      <p class="subtitle text-white-primary mb-40 max-w-830" v-html="item.text"></p>
-                     <button class="subtitle w-full md:w-auto px-100 xl:px-120 py-15 2xl:py-20 btn text-center text-white-primary rounded-32 md:rounded-40">Yozilish</button>
+                     <a href="#register" class="subtitle w-full md:w-auto px-100 xl:px-120 py-15 2xl:py-20 btn text-center text-white-primary rounded-32 md:rounded-40">Yozilish</a>
                   </div>
                </div>
             </div>
@@ -69,10 +69,6 @@ export default {
    props: {
       type: {
          type: Number,
-         required: true
-      },
-      name: {
-         type: String,
          required: true
       }
    },
