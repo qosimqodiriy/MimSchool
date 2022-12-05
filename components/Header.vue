@@ -61,7 +61,6 @@ export default {
          this.burger = false;
          window.scrollTo(0, 0);
          this.isMenuOpen = false;
-         console.log("Hello");
       }
    },
 }
