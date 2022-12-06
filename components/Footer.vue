@@ -55,10 +55,10 @@
                <p class="subtitle text-white-primary">Shaxsiy ma'lumotlarni qayta ishlash siyosati</p>
             </div>
 
-            <div class="inline-flex items-start gap-10 max-w-400">
+            <!-- <div class="inline-flex items-start gap-10 max-w-400">
                <img src="@/assets/images/footer-icon.png" alt="">
                <p class="subtitle-2 text-white-primary"><span class="subtitle-2 text-blue">Сайт разработан в</span> National Development Community Перейти на сайт разработчиков</p>
-            </div>
+            </div> -->
          </div>
       </div>
    </div>

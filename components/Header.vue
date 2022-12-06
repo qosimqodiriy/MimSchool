@@ -2,8 +2,12 @@
    <div class="sticky top-0 w-full bg-black py-20 md:py-25 z-50">
       <div class="myContainer ">
          <div class="w-full flex items-center justify-between">
-            <nuxt-link @click.native="scrollToTop" to="/">
+            <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10">
                <img src="@/assets/images/logo.svg" alt="" />
+               <div class="">
+                  <p class="text-18 leading-20 text-blue font-bold">MIM IT</p>
+                  <p class="text-18 leading-20 text-blue font-bold">ACADEMY</p>
+               </div>
             </nuxt-link>
 
             <div class="hidden lg:flex items-center gap-30">
@@ -84,7 +88,7 @@ export default {
    .burger_bg {
       backdrop-filter: blur(10px);
       background: linear-gradient(5deg,
-        rgba(22, 21, 24, 0) 10%,
-        rgba(8, 8, 8, 0.8) 100%);
+        rgba(17, 17, 18, 0) 10%,
+        rgba(0, 0, 0, 0.8) 100%);
    }
 </style>

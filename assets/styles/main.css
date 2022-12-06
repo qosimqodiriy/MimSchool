@@ -14,7 +14,7 @@
 
 a.nuxt-link-exact-active {
    font-weight: 700 !important;
-   color: #0f0 !important;
+   color: #2857FD !important;
    /* color: #2857FD !important; */
 }
 
@@ -69,4 +69,14 @@ select {
    background: url('../images/arrow-down-s.png') no-repeat right center;
    background-position-x: calc(100% - 16px);
    background-size: 24px;
+}
+
+@media (max-width: 1366px) {
+   .myContainer {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+      overflow: hidden;
+      max-width: 1240px;
+   }
 }

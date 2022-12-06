@@ -9,8 +9,8 @@
 
             <div class="flex justify-center">
                <div class="inline-flex py-20 px-18 rounded-32 linear">
-                  <div class="flex flex-wrap justify-center items-center">
-                     <router-link :to="item.link" v-for="item in lessons" :key="item.type" class="px-10 md:px-20 py-10 md:py-15 card">
+                  <div class="flex flex-wrap items-center justify-around gap-x-20 gap-y-10">
+                     <router-link :to="item.link" v-for="item in lessons" :key="item.type" class="px-10 md:px-20 py-10 md:py-15">
                         <p class="heading-6 text-white-primary text-center mb-8">{{ item.name }}</p>
                         <p class="subtitle text-white-primary">{{ item.price }}</p>
                      </router-link>
@@ -46,10 +46,6 @@ export default {
       backdrop-filter: blur(20px);
       background: rgba(39, 33, 57, 0.16);
       box-shadow: inset 0px 0px 84px rgba(182, 179, 193, 0.12);
-   }
-
-   .card {
-      border-right: 1px solid #272139;
    }
 
    .card:nth-child(5) {
