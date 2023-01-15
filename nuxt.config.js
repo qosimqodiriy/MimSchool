@@ -12,7 +12,44 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+
+      {
+        property: 'og:title',
+        content: 'MimAcademy',
+      },
+      {
+        property: 'title',
+        content: 'MimAcademy',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:description',
+        content: "Samarqanddagi eng zo'r o'quv markaz",
+      },
+      {
+        property: 'description',
+        content: "Samarqanddagi eng zo'r o'quv markaz",
+      },
+      // {
+      //   property: 'og:image',
+      //   content: 'https://i.pinimg.com/originals/35/38/36/3538363f9be4aec0f2a3a899c76678f9.png',
+      // },
+      // {
+      //   property: 'image',
+      //   content: 'https://i.pinimg.com/originals/35/38/36/3538363f9be4aec0f2a3a899c76678f9.png',
+      // },
+      {
+        property: 'keywords',
+        content: "o'quv markaz, it, it o'quv markaz, kurslar, o'quv kurslar, it o'quv kurslar",
+      },
+      {
+        property: 'og:keywords',
+        content: "o'quv markaz, it, it o'quv markaz, kurslar, o'quv kurslar, it o'quv kurslar",
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
