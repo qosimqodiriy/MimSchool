@@ -50,7 +50,7 @@ export default {
             {
                type: 1,
                name: "Mentorlar",
-               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq.",
+               text: "Mahoratli ustozlarimiz bilan yaqindan tanishing.",
             },
             {
                type: 2,
