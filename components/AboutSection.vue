@@ -2,7 +2,7 @@
    <div class="w-full bg-white-secondary py-60 md:py-72 lg:py-84 xl:py-100 2xl:py-120">
       <div class="myContainer space-y-56 md:space-y-64 lg:space-y-76 xl:space-y-90">
          <div>
-            <h2 class="heading-2 text-Rich-Black mb-56 max-w-900 md:mb-60 lg:mb-70">Biz professional va shaxsiy rivojlanish uchun keng doiradagi kurslarni taklif etamiz.</h2>
+            <h2 class="heading-2 text-Rich-Black mb-56 max-w-900 md:mb-60 lg:mb-70">Mavjud kurslarimiz:</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-24">
                <about-card
                   data-aos="fade-left"

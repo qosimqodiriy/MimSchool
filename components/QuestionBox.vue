@@ -91,7 +91,7 @@ export default {
    overflow: hidden;
 }
 
-.contentBox .title {
+/* .contentBox .title {
    transition: 0.3s;
    transform: translateY(200px);
 }
@@ -99,7 +99,7 @@ export default {
 .contentBox.active .title {
    transition: 0.3s;
    transform: translateY(0px);
-}
+} */
 
 .icon {
    transition: 0.3s;
