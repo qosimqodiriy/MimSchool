@@ -78,16 +78,7 @@ export default{
       return {
          teachers: teachers
       }
-   },
-
-   // mounted() {
-   //    VanillaTilt.init(document.querySelectorAll(".vanilla"), {
-   //       max: 25,
-   //       speed: 400,
-   //       glare: true,
-   //       "max-glare": 1,
-   //    });
-   // },
+   }
 }
 </script>
 
