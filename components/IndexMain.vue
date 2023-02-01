@@ -1,8 +1,9 @@
 <template>
-   <div class="main w-full bg-black flex items-center justify-center relative">
-      <div class="myContainer py-30 md:py-36 h-full z-40">
-         <div class="animate__animated animate__fadeInUp">
-            <h1 class="heading-4 text-white-primary text-center mb-40">Zamonaviy kasblarni zamonaviy uslubda o'rganamiz</h1>
+   <div class="main w-full bg-black flex items-center justify-center relative overflow-hidden">
+      <div class="myContainer py-30 md:py-36 h-full z-40 overflow-hidden">
+         <div class="animate__animated animate__fadeInUp overflow-hidden">
+            <h1 class="headText-1 text-white-primary text-center mb-20 md:m-0">Zamonaviy Kasblar Maktabi</h1>
+            <h2 class="heading-1 text-center mb-40 headText-2">Auto.School</h2>
             <div class="flex justify-center mb-100 md:mb-60 lg:mb-80">
                <a href="#register" class="caps-subtitle btn text-white-primary px-60 md:px-80 py-10 md:py-15 rounded-54">Yozilish</a>
             </div>
@@ -37,25 +38,54 @@ export default {
 </script>
 
 <style scoped>
+.main {
+   overflow: hidden;
+   min-height: calc(100vh - 92px);
+}
+
+.headText-1 {
+   font-size: 72px;
+   line-height: 80px;
+   font-family: 'Firs-Neue';
+}
+
+.headText-2 {
+   text-shadow: 0 0 1px rgba(40, 87, 253, 0.8);
+   color: rgba(60, 100, 238, 0.32);
+}
+
+.linear {
+   backdrop-filter: blur(20px);
+   background: rgba(39, 33, 57, 0.16);
+   box-shadow: inset 0px 0px 84px rgba(182, 179, 193, 0.12);
+}
+
+.card:nth-child(5) {
+   border: none;
+}
+
+
+@media (max-width: 1440px) {
+   .headText-1 {
+      font-size: 60px;
+      line-height: 64px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .headText-1 {
+      font-size: 48px;
+      line-height: 52px;
+   }
+}
+
+@media (max-width: 768px) {
    .main {
-      overflow: hidden;
-      min-height: calc(100vh - 92px);
+      min-height: calc(100vh - 82px);
    }
-
-   .linear {
-      backdrop-filter: blur(20px);
-      background: rgba(39, 33, 57, 0.16);
-      box-shadow: inset 0px 0px 84px rgba(182, 179, 193, 0.12);
+   .headText-1 {
+      font-size: 36px;
+      line-height: 44px;
    }
-
-   .card:nth-child(5) {
-      border: none;
-   }
-
-
-   @media (max-width: 768px) {
-      .main {
-         min-height: calc(100vh - 82px);
-      }
-   }
+}
 </style>

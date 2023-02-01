@@ -55,15 +55,15 @@
                <div class="w-full flex flex-col lg:flex-row items-center gap-40 mb-40">
                   <div class="w-full">
                      <p class="overline-1 text-Rich-Black mb-8">Contacts:</p>
-                     <p class="subtitle text-Rich-Black">+998 99 123 45 67</p>
+                     <p class="subtitle text-Rich-Black">+998 78 113 15 51</p>
                   </div>
                   <div class="w-full">
                      <p class="overline-1 text-Rich-Black mb-8">Email:</p>
-                     <p class="subtitle text-Rich-Black">index@mimsoftedu.com</p>
+                     <p class="subtitle text-Rich-Black">hi@mim.school</p>
                   </div>
                </div>
-               <p class="overline-1 text-Rich-Black mb-8">Address:</p>
-               <p class="subtitle text-Rich-Black">Republic of Uzbekistan, Tashkent city, Mirzo-Ulugbek district, Tepa Masjid 4</p>
+               <p class="overline-1 text-Rich-Black mb-8">Manzil:</p>
+               <p class="subtitle text-Rich-Black">Samarqand sh. Qorasuv mavzesi, 12A, 2-qavat</p>
             </div>
          </div>
       </div>

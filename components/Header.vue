@@ -1,21 +1,79 @@
 <template>
    <div class="sticky top-0 w-full bg-black py-20 md:py-25 z-50">
       <div class="myContainer ">
+         <!-- <div class="menu">
+            <a href="#" class="brand">Brand</a>
+            <nav>
+               <ul>
+                  <li><a href="#">Home</a></li>
+                  <li>
+                     <a href="#">About</a>
+                     <ul>
+                        <li><a href="#">List 1</a></li>
+                        <li><a href="#">List 2</a></li>
+                        <li><a href="#">List 3</a></li>
+                        <li><a href="#">List 4</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="#">Services</a>
+                     <ul>
+                        <li><a href="#">List 1</a></li>
+                        <li><a href="#">List 2</a></li>
+                        <li><a href="#">List 3</a></li>
+                        <li><a href="#">List 4</a></li>
+                        <li><a href="#">List 5</a></li>
+                        <li><a href="#">List 6</a></li>
+                        <li><a href="#">List 7</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li>
+                     <a href="#">Pages</a>
+                     <ul>
+                        <li><a href="#">List 1</a></li>
+                        <li><a href="#">List 2</a></li>
+                        <li><a href="#">List 3</a></li>
+                        <li><a href="#">List 4</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+               </ul>
+            </nav>
+         </div> -->
          <div class="w-full flex items-center justify-between">
             <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10">
                <img src="@/assets/images/logo.svg" alt="" />
                <div class="">
-                  <p class="text-18 leading-20 text-blue font-bold">MIM IT</p>
+                  <p class="text-18 leading-20 text-blue font-bold">MIM</p>
                   <p class="text-18 leading-20 text-blue font-bold">ACADEMY</p>
                </div>
             </nuxt-link>
 
+            <!-- <div class="navbar relative">
+               <div class="navbar_inner_1 hidden lg:inline-flex items-center gap-10 px-20 py-6 rounded-30 border border-white-primary">
+                  <p class="subtitle text-white-primary">Barcha kurslar</p>
+                  <img class="w-24 h-24" src="@/assets/images/arrow-down-s-white.png" alt="" />
+               </div>
+
+               <div class="navbar_inner_2">
+                  <p>wf;ejf;ew fewjf;oew;ejwriewhuewr </p>
+                  <p>wf;ejf;ew fewjf;oew;ejwriewhuewr </p>
+                  <p>wf;ejf;ew fewjf;oew;ejwriewhuewr </p>
+                  <p>wf;ejf;ew fewjf;oew;ejwriewhuewr </p>
+               </div>
+            </div> -->
+
             <div class="hidden lg:flex items-center gap-30">
-               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Faundation</nuxt-link>
+               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">IT</nuxt-link>
+               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Math</nuxt-link>
+               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">English</nuxt-link>
+               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Auto School</nuxt-link>
+               <!-- <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Faundation</nuxt-link>
                <nuxt-link to="/frontend" @click.native="scrollToTop" class="text-white-primary text-18">Front-End</nuxt-link>
                <nuxt-link to="/backend" @click.native="scrollToTop" class="text-white-primary text-18">Back-End</nuxt-link>
                <nuxt-link to="/android" @click.native="scrollToTop" class="text-white-primary text-18">Android</nuxt-link>
-               <nuxt-link to="/ios" @click.native="scrollToTop" class="text-white-primary text-18">IOS</nuxt-link>
+               <nuxt-link to="/ios" @click.native="scrollToTop" class="text-white-primary text-18">IOS</nuxt-link> -->
             </div>
 
             <div class="hidden md:flex items-center gap-30 lg:gap-40">
@@ -90,5 +148,26 @@ export default {
       background: linear-gradient(5deg,
         rgba(17, 17, 18, 0) 10%,
         rgba(0, 0, 0, 0.8) 100%);
+   }
+
+   .navbar {
+      position: relative;
+   }
+
+   .navbar_inner_2 {
+      /* opacity: 0; */
+      /* display: none; */
+      background-color: white;
+      /* transform: translateY(200px); */
+      position: absolute;
+      top: 40%;
+      left: 0;
+      width: 100%;
+   }
+
+   .navbar:hover .navbar_inner_2 {
+      /* opacity: 1; */
+      /* display: block; */
+      /* transform: translateY(0); */
    }
 </style>

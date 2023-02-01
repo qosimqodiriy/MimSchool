@@ -3,10 +3,23 @@
       <div class="myContainer">
          <div class="flex flex-col md:flex-row justify-between flex-wrap gap-40">
             <div class="w-full md:w-30%">
-               <img class="mb-40 md:mb-44 lg:mb-52 2xl:mb-60" src="@/assets/images/logo.svg" alt="" />
+               <!-- <img class="mb-40 md:mb-44 lg:mb-52 2xl:mb-60" src="@/assets/images/logo.svg" alt="" /> -->
+               <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10 mb-40 md:mb-44 lg:mb-52 2xl:mb-60">
+                  <img src="@/assets/images/logo.svg" alt="" />
+                  <div class="">
+                     <p class="text-18 leading-20 text-blue font-bold">MIM</p>
+                     <p class="text-18 leading-20 text-blue font-bold">ACADEMY</p>
+                  </div>
+               </nuxt-link>
 
                <div class="flex items-center gap-30 flex-wrap">
-                  <img v-for="item in 5" :key="item" class="w-24 h-24" src="@/assets/images/instagram.png" alt="">
+                  <a v-for="item in lists" :key="item" :href="item.path" target="_blank">
+                     <!-- <img class="w-24 h-24" src="" alt="" /> -->
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z"/>
+                        <path :d="item.icon" fill="rgba(255,255,255,1)" />
+                     </svg>
+                  </a>
                </div>
             </div>
 
@@ -14,11 +27,11 @@
                <div class="w-50%">
                   <h3 class="heading-6 text-white-primary mb-24">Kurslar</h3>
                   <div class="flex flex-col gap-12">
-                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Faundation</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/frontend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Front-end</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/backend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Back-end</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Android</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IOS</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IT</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/frontend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/backend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">English</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Auto School</nuxt-link>
+                     <!-- <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kimyo</nuxt-link> -->
                   </div>
                </div>
 
@@ -33,26 +46,26 @@
             </div>
 
             <div class="">
-               <h3 class="heading-6 text-white-primary mb-24">Biz bilan bog’laning</h3>
+               <h3 class="heading-6 text-white-primary mb-24">Aloqa</h3>
                <div class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/Location.png" alt="">
-                  <p class="subtitle-1 text-white-primary">Город: Зенит, р.Мирабад г.Ташкент, Узбекситан</p>
+                  <p class="subtitle-1 text-white-primary">Samarqand sh. Qorasuv mavzesi, 12A, 2-qavat</p>
                </div>
                <div class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/email.png" alt="">
-                  <p class="subtitle-1 text-white-primary">index@mimsoft.com</p>
+                  <p class="subtitle-1 text-white-primary">hi@mim.school</p>
                </div>
                <div class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/phone.png" alt="">
-                  <p class="subtitle-1 text-white-primary">+998 99 200 02 02</p>
+                  <p class="subtitle-1 text-white-primary">+998 78 113 15 51</p>
                </div>
             </div>
          </div>
          <div class="w-full border-t border-Quartz my-28"></div>
          <div class="w-full flex flex-col md:flex-row md:items-center md:justify-between gap-20 md:gap-30 lg:gap-40">
             <div class="max-w-400">
-               <p class="subtitle text-white-primary">© 2022 Mimsoft education</p>
-               <p class="subtitle text-white-primary">Shaxsiy ma'lumotlarni qayta ishlash siyosati</p>
+               <p class="subtitle text-white-primary">© 2023 MimEdu MCHJ</p>
+               <!-- <p class="subtitle text-white-primary">Shaxsiy ma'lumotlarni qayta ishlash siyosati</p> -->
             </div>
 
             <!-- <div class="inline-flex items-start gap-10 max-w-400">
@@ -66,7 +79,15 @@
 
 
 <script>
+import socials from '@/api/socials'
+
 export default {
+   data() {
+      return {
+         lists: socials
+      }
+   },
+
    methods: {
       scrollToTop() {
          window.scrollTo(0, 0)

@@ -22,6 +22,7 @@
 
 <script>
 import questions from '@/api/question'
+
 export default {
    data() {
       return {
