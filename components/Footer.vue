@@ -13,7 +13,7 @@
                </nuxt-link>
 
                <div class="flex items-center gap-30 flex-wrap">
-                  <a v-for="item in lists" :key="item" :href="item.path" target="_blank">
+                  <a v-for="item in lists" :key="item.path" :href="item.path" target="_blank">
                      <!-- <img class="w-24 h-24" src="" alt="" /> -->
                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="none" d="M0 0h24v24H0z"/>
@@ -30,7 +30,7 @@
                      <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IT</nuxt-link>
                      <nuxt-link @click.native="scrollToTop" to="/frontend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link>
                      <nuxt-link @click.native="scrollToTop" to="/backend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">English</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Auto School</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Boshqalar</nuxt-link>
                      <!-- <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kimyo</nuxt-link> -->
                   </div>
                </div>
@@ -51,14 +51,14 @@
                   <img class="w-24 h-24" src="@/assets/images/Location.png" alt="">
                   <p class="subtitle-1 text-white-primary">Samarqand sh. Qorasuv mavzesi, 12A, 2-qavat</p>
                </div>
-               <div class="flex items-center gap-6 mb-24">
+               <a href="mailto:hi@mim.school" class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/email.png" alt="">
                   <p class="subtitle-1 text-white-primary">hi@mim.school</p>
-               </div>
-               <div class="flex items-center gap-6 mb-24">
+               </a>
+               <a href="tel:++998781131551" class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/phone.png" alt="">
                   <p class="subtitle-1 text-white-primary">+998 78 113 15 51</p>
-               </div>
+               </a>
             </div>
          </div>
          <div class="w-full border-t border-Quartz my-28"></div>

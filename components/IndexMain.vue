@@ -2,13 +2,15 @@
    <div class="main w-full bg-black flex items-center justify-center relative overflow-hidden">
       <div class="myContainer py-30 md:py-36 h-full z-40 overflow-hidden">
          <div class="animate__animated animate__fadeInUp overflow-hidden">
-            <h1 class="headText-1 text-white-primary text-center mb-20 md:m-0">Zamonaviy Kasblar Maktabi</h1>
-            <h2 class="heading-1 text-center mb-40 headText-2">Auto.School</h2>
+            <h1 class="headText-1 text-white-primary text-center mb-20 md:m-0">Kelajak Kasblari Maktabi</h1>
+            <h2 class="heading-1 text-center mb-40 headText-2 animate_text-1">IT.School</h2>
+            <h2 class="heading-1 text-center mb-40 headText-2 animate_text-2">Math.School</h2>
+            <h2 class="heading-1 text-center mb-40 headText-2 animate_text-3">Auto.School</h2>
             <div class="flex justify-center mb-100 md:mb-60 lg:mb-80">
                <a href="#register" class="caps-subtitle btn text-white-primary px-60 md:px-80 py-10 md:py-15 rounded-54">Yozilish</a>
             </div>
 
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
                <div class="inline-flex py-20 px-18 rounded-32 linear">
                   <div class="flex flex-wrap items-center justify-around gap-x-20 gap-y-10">
                      <router-link :to="item.link" v-for="item in lessons" :key="item.type" class="px-10 md:px-20 py-10 md:py-15">
@@ -17,7 +19,7 @@
                      </router-link>
                   </div>
                </div>
-            </div>
+            </div> -->
          </div>
       </div>
       <div class="absolute top-0 w-full h-full left-0 overflow-hidden z-30">
@@ -33,6 +35,46 @@ export default {
       return {
          lessons: lessons
       }
+   },
+  
+   methods: {
+      scrollToTop() {
+         window.scrollTo(0, 0)
+      },
+
+      addActive() {
+         console.log("Hello active clas");
+         let text1 = document.querySelector('.animate_text-1');
+         let text2 = document.querySelector('.animate_text-2');
+         let text3 = document.querySelector('.animate_text-3');
+
+         text1.classList.add('active')
+         setTimeout(() => {
+            text1.classList.remove('active')
+         }, 3000);
+
+         setTimeout(() => {
+            text2.classList.add('active');
+            setTimeout(() => {
+               text2.classList.remove('active')
+            }, 3000);
+         }, 3500);
+
+         setTimeout(() => {
+            text3.classList.add('active');
+            setTimeout(() => {
+               text3.classList.remove('active')
+            }, 3000);
+         }, 7000);
+
+         setTimeout(() => {
+            this.addActive()
+         }, 9500);
+      }
+   },
+
+   mounted() {
+      this.addActive()
    },
 }
 </script>
@@ -54,6 +96,36 @@ export default {
    color: rgba(60, 100, 238, 0.32);
 }
 
+.animate_text-1 {
+   opacity: 0;
+   transition: 3s;
+   transform: translateY(-50px);
+}
+
+.animate_text-1.active {
+   opacity: 1;
+   position: relative;
+   animation: animate_text_1 3s ease-in-out infinite;
+}
+.animate_text-2 {
+   opacity: 0;
+   transition: 3s;
+}
+.animate_text-2.active {
+   opacity: 1;
+   position: relative;
+   animation: animate_text_1 3s ease-in-out infinite;
+}
+.animate_text-3 {
+   opacity: 0;
+   transition: 3s;
+}
+.animate_text-3.active {
+   opacity: 1;
+   position: relative;
+   animation: animate_text_1 3s ease-in-out infinite;
+}
+
 .linear {
    backdrop-filter: blur(20px);
    background: rgba(39, 33, 57, 0.16);
@@ -62,6 +134,21 @@ export default {
 
 .card:nth-child(5) {
    border: none;
+}
+
+@keyframes animate_text_1 {
+   0% {
+      opacity: 0;
+      transform: translateY(-50px);
+   }
+   20%, 80% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+   100% {
+      opacity: 0;
+      transform: translateY(50px);
+   }
 }
 
 

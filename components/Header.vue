@@ -68,7 +68,7 @@
                <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">IT</nuxt-link>
                <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Math</nuxt-link>
                <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">English</nuxt-link>
-               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Auto School</nuxt-link>
+               <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Auto</nuxt-link>
                <!-- <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Faundation</nuxt-link>
                <nuxt-link to="/frontend" @click.native="scrollToTop" class="text-white-primary text-18">Front-End</nuxt-link>
                <nuxt-link to="/backend" @click.native="scrollToTop" class="text-white-primary text-18">Back-End</nuxt-link>
