@@ -3,18 +3,16 @@
       <div class="myContainer">
          <div class="flex flex-col md:flex-row justify-between flex-wrap gap-40">
             <div class="w-full md:w-30%">
-               <!-- <img class="mb-40 md:mb-44 lg:mb-52 2xl:mb-60" src="@/assets/images/logo.svg" alt="" /> -->
                <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10 mb-40 md:mb-44 lg:mb-52 2xl:mb-60">
                   <img src="@/assets/images/logo.svg" alt="" />
-                  <div class="">
+                  <!-- <div class="">
                      <p class="text-18 leading-20 text-blue font-bold">MIM</p>
                      <p class="text-18 leading-20 text-blue font-bold">ACADEMY</p>
-                  </div>
+                  </div> -->
                </nuxt-link>
 
                <div class="flex items-center gap-30 flex-wrap">
                   <a v-for="item in lists" :key="item.path" :href="item.path" target="_blank">
-                     <!-- <img class="w-24 h-24" src="" alt="" /> -->
                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="none" d="M0 0h24v24H0z"/>
                         <path :d="item.icon" fill="rgba(255,255,255,1)" />

@@ -53,9 +53,9 @@ export default {
          text2.style.display = 'none';
          text3.style.display = 'none';
          
-         text1.classList.add('active')
+         text1.classList.add('activeText')
          setTimeout(() => {
-            text1.classList.remove('active')
+            text1.classList.remove('activeText')
          }, 3000);
 
          setTimeout(() => {
@@ -63,9 +63,9 @@ export default {
             text2.style.display = 'block';
             text3.style.display = 'none';
             
-            text2.classList.add('active');
+            text2.classList.add('activeText');
             setTimeout(() => {
-               text2.classList.remove('active')
+               text2.classList.remove('activeText')
             }, 3000);
          }, 3000);
 
@@ -74,9 +74,9 @@ export default {
             text2.style.display = 'none';
             text3.style.display = 'block';
 
-            text3.classList.add('active');
+            text3.classList.add('activeText');
             setTimeout(() => {
-               text3.classList.remove('active')
+               text3.classList.remove('activeText')
             }, 3000);
          }, 6000);
 
@@ -114,7 +114,7 @@ export default {
    transition: 3s;
 }
 
-.animate_text-1.active {
+.animate_text-1.activeText {
    opacity: 1;
    position: relative;
    animation: animate_text_1 3s ease-in-out infinite;
@@ -123,7 +123,7 @@ export default {
    opacity: 0;
    transition: 3s;
 }
-.animate_text-2.active {
+.animate_text-2.activeText {
    opacity: 1;
    position: relative;
    animation: animate_text_1 3s ease-in-out infinite;
@@ -132,7 +132,7 @@ export default {
    opacity: 0;
    transition: 3s;
 }
-.animate_text-3.active {
+.animate_text-3.activeText {
    opacity: 1;
    position: relative;
    animation: animate_text_1 3s ease-in-out infinite;
@@ -151,7 +151,7 @@ export default {
 @keyframes animate_text_1 {
    0% {
       opacity: 0;
-      transform: translateY(-50px);
+      transform: translateY(-30px);
    }
    20%, 80% {
       opacity: 1;
@@ -159,7 +159,7 @@ export default {
    }
    100% {
       opacity: 0;
-      transform: translateY(50px);
+      transform: translateY(30px);
    }
 }
 

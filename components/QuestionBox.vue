@@ -4,7 +4,7 @@
       <p class="heading-2 text-center text-Jet mb-40">Ko‘p so‘ralgan savollar</p>
 
       <div class="rounded-16 overflow-hidden border border-white-secondary">
-         <!-- <div class="rounded-t-16 md:rounded-16 overflow-hidden border border-white-secondary"> -->
+         <div class="rounded-t-16 md:rounded-16 overflow-hidden border border-white-secondary">
             <div v-for="(item, index) in lists" :key="index" class="contentBox overflow-hidden bg-white-primary" :class="tab == index ? 'active bg-gray' : ''">
                <div @click="clickMe(index)" class="header w-full flex items-center justify-between gap-15 p-10 px-15 md:py-12 lg:py-15 md:px-20 lg:px-25 cursor-pointer">
                   <p class="font-medium  text-16 md:text-18 lg:text-20 text-black-primary">{{ item.title }}</p>
@@ -14,7 +14,7 @@
                   <p class="text-12 md:text-14 lg:text-16 px-15 pb-5 md:pb-10 md:px-20 lg:px-25">{{ item.text }}</p> 
                </div>
             </div>
-         <!-- </div> -->
+         </div>
       </div>
    </div>
 </template>
@@ -46,6 +46,8 @@ export default {
             this.contentBox.forEach(element => {
                element.style.height = element.children[0].offsetHeight + 'px'
             });
+
+            // console.log(this.active);
 
             if(this.active) {
                let header = this.active.children[0].offsetHeight
