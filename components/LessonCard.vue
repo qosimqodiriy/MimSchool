@@ -16,7 +16,7 @@
          </div>
          <div class="w-full border-t border-Quartz my-28"></div>
          <div :class="item.type == 1 ? 'block md:flex items-center justify-between' : ''">
-            <p class="heading-6 text-white-primary mb-32" :class="item.type == 1 ? 'md:mb-0' : ''">{{ item.price }}</p>
+            <p class="heading-6 text-white-primary mb-32" :class="item.type == 1 ? 'md:mb-0' : ''">{{ item.price }} so'm</p>
             <div class="inline-flex flex-col lg:flex-row items-center gap-20" :class="item.type != 1 ? 'w-full justify-between' : 'w-full md:w-auto md:flex-row'">
                <a href="#register" class="text-14 md:text-16 lg:text-18 font-semibold py-15 lg:py-20 px-56 w-full lg:w-auto text-center text-white-primary rounded-40 btn cursor-pointer uppercase">yozilish</a>
                <nuxt-link :to="item.link" class="text-14 md:text-16 lg:text-18 font-semibold py-15 lg:py-20 px-56 w-full lg:w-auto text-center text-white-primary rounded-40 border border-white-primary cursor-pointer uppercase hover:bg-blue hover:border-blue transition-all duration-500">Ko‘proq ko‘rish</nuxt-link>

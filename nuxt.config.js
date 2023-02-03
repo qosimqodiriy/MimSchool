@@ -16,11 +16,11 @@ export default {
 
       {
         property: 'og:title',
-        content: 'MimAcademy',
+        content: 'MimSchool',
       },
       {
         property: 'title',
-        content: 'MimAcademy',
+        content: 'MimSchool',
       },
       {
         property: 'og:type',

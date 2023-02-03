@@ -11,7 +11,7 @@
                   <img class="icon w-24 md:w-28" src="@/assets/images/arrow-down-s.png" alt="">
                </div>
                <div class="title text-black-primary">
-                  <p class="text-12 md:text-14 lg:text-16 px-15 pb-5 md:pb-10 md:px-20 lg:px-25">{{ item.text }}</p>
+                  <p class="text-12 md:text-14 lg:text-16 px-15 pb-5 md:pb-10 md:px-20 lg:px-25">{{ item.text }}</p> 
                </div>
             </div>
          <!-- </div> -->
