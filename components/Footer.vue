@@ -45,10 +45,10 @@
 
             <div class="">
                <h3 class="heading-6 text-white-primary mb-24">Aloqa</h3>
-               <div class="flex items-center gap-6 mb-24">
+               <a href="https://goo.gl/maps/iahAxBqhCdpv7nNq5" target="_blank" class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/Location.png" alt="">
                   <p class="subtitle-1 text-white-primary">Samarqand sh. Qorasuv mavzesi, 12A, 2-qavat</p>
-               </div>
+               </a>
                <a href="mailto:hi@mim.school" class="flex items-center gap-6 mb-24">
                   <img class="w-24 h-24" src="@/assets/images/email.png" alt="">
                   <p class="subtitle-1 text-white-primary">hi@mim.school</p>
