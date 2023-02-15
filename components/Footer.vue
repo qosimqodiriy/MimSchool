@@ -26,9 +26,9 @@
                   <h3 class="heading-6 text-white-primary mb-24">Kurslar</h3>
                   <div class="flex flex-col gap-12">
                      <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IT</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/frontend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/backend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">English</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Boshqalar</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/math" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/english" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">English</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/auto" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Auto</nuxt-link>
                      <!-- <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kimyo</nuxt-link> -->
                   </div>
                </div>

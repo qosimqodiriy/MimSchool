@@ -18,6 +18,9 @@
                   <img class="vanillaCard w-full" v-else-if="(item.type == 3)" src="@/assets/images/backend.png" alt="">
                   <img class="vanillaCard w-full" v-else-if="(item.type == 4)" src="@/assets/images/android.png" alt="">
                   <img class="vanillaCard w-full" v-else-if="(item.type == 5)" src="@/assets/images/ios.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 6)" src="@/assets/images/ios.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 7)" src="@/assets/images/ios.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 8)" src="@/assets/images/ios.png" alt="">
                </div>
 
                <div class="w-full md:w-50% lg:w-60%">
@@ -75,7 +78,7 @@ export default {
 
    data() {
       return {
-         returnType: this.type ? this.type : 1,
+         // returnType: this.type ? this.type : 1,
          data: [
             {
                type: 1,
@@ -172,6 +175,75 @@ export default {
             {
                type: 5,
                name: "IOS",
+               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 6,
+               name: "Matematika",
+               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 7,
+               name: "Ingliz tili",
+               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 8,
+               name: "Auto maktab",
                text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
                learning: [
                   {
