@@ -3,9 +3,9 @@
       <div class="myContainer">
          <div class="grid grid-cols-1 gap-14 md:gap-20 lg:gap-24">
             <div v-for="(item, index) in data" :key="index" class="flex flex-col md:flex-row gap-24 md:gap-32 lg:gap-40 bg-white-primary rounded-24 md:rounded-32 lg:rounded-40 p-28 md:p-32 lg:p-36 xl:p-40">
-               <div class="w-full md:w-342 h-420 md:h-390 shrink-0">
+               <!-- <div class="w-full md:w-342 h-420 md:h-390 shrink-0">
                   <teacher-card :show="false" />
-               </div>
+               </div> -->
                <div>
                   <h2 class="heading-2 text-Jet mb-8 md:mb-12">{{ item.name }}</h2>
                   <h3 class="overline-1 text-Spanish-Gray mb-32 md:mb-36">{{ item.job }}</h3>

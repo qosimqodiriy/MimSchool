@@ -50,7 +50,7 @@ export default {
             {
                type: 1,
                name: "Mentorlar",
-               text: "Mahoratli ustozlarimiz bilan yaqindan tanishing.",
+               text: "O’quvchining  muvaffaqiyati va kasbiy karyerasi uchun ustozlarning o’rni juda muhim, ayniqsa bu IT va zamonaviy kasblar bo’lganda. Ustozlar sizga o’z bilim va tajribasini ulashib qolmasdan, o’z amaliy yordamini ham ko’rsatadi va ilm olish yo’lidagi mashaqqatingizni bir necha barobarga qisqartiradi.",
             },
             {
                type: 2,

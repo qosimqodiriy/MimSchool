@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     // titleTemplate: '%s - mimacademy',
-    title: 'MimSchool',
+    title: 'Kelajak kasblari maktabi',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,11 +16,11 @@ export default {
 
       {
         property: 'og:title',
-        content: 'MimSchool',
+        content: 'Kelajak kasblari maktabi',
       },
       {
         property: 'title',
-        content: 'MimSchool',
+        content: 'Kelajak kasblari maktabi',
       },
       {
         property: 'og:type',

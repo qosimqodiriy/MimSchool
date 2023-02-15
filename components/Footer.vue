@@ -3,13 +3,14 @@
       <div class="myContainer">
          <div class="flex flex-col md:flex-row justify-between flex-wrap gap-40">
             <div class="w-full md:w-30%">
-               <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10 mb-40 md:mb-44 lg:mb-52 2xl:mb-60">
-                  <img src="@/assets/images/logo.svg" alt="" />
+               <nuxt-link @click.native="scrollToTop" to="/" class="overflow-hidden inline-flex items-center gap-10 mb-10">
+                  <img class="w-100" src="@/assets/images/logo.svg" alt="" />
                   <!-- <div class="">
                      <p class="text-18 leading-20 text-blue font-bold">MIM</p>
                      <p class="text-18 leading-20 text-blue font-bold">ACADEMY</p>
                   </div> -->
                </nuxt-link>
+               <p class="subtitle-1 text-white-primary mb-40 md:mb-44 lg:mb-52 2xl:mb-60">Kelajak kasblari maktabi</p>
 
                <div class="flex items-center gap-30 flex-wrap">
                   <a v-for="item in lists" :key="item.path" :href="item.path" target="_blank">

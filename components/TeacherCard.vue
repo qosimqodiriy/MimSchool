@@ -8,11 +8,11 @@
             <p class="body text-white-primary">{{ item.job }}</p>
          </div>
          <ul class="sci">
-            <li v-for="(social, index) in item.socials" :key="index" :style="`--i:${index}`">
+            <!-- <li v-for="(social, index) in item.socials" :key="index" :style="`--i:${index}`">
                <a :href="social.link" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path :d="social.path" fill="rgba(255,255,255,1)" /></svg>
                </a>
-            </li>
+            </li> -->
             <!-- <li style="--i:2"><a href="https://t.me/mimsoftio" target="_blank"><img class="w-24 h-24" src="@/assets/images/facebook.png" alt=""></a></li>
             <li style="--i:3"><a href="https://t.me/mimsoftio" target="_blank"><img class="w-24 h-24" src="@/assets/images/instagram.png" alt=""></a></li> -->
          </ul>
@@ -45,9 +45,9 @@ export default {
 
 .content {
    position: absolute;
-   bottom: -130px;
+   bottom: -10 0px;
    width: 100%;
-   height: 130px;
+   height: 100px;
    display: flex;
    transition: 0.5s;
    padding: 15px 10px;

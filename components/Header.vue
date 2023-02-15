@@ -3,7 +3,7 @@
       <div class="myContainer ">
          <div class="w-full flex items-center justify-between">
             <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10">
-               <img src="@/assets/images/logo.svg" alt="" />
+               <img class="w-100" src="@/assets/images/logo.svg" alt="" />
                <!-- <div class="">
                   <p class="text-18 leading-20 text-blue font-bold">MIM</p>
                   <p class="text-18 leading-20 text-blue font-bold">ACADEMY</p>

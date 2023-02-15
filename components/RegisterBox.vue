@@ -17,7 +17,7 @@
             <select v-model="course" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 outline-none">
                <option v-for="(item, index) in lessons" :key="index.type" class="text-Gunmetal w-full max-w-full" :value="item.type">{{ item.name }}</option>
             </select>
-            <button type="submit" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle bg-blue text-center text-white-primary w-full rounded-32 md:rounded-40">Yozilish</button>
+            <button type="submit" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle bg-blue text-center text-white-primary w-full rounded-32 md:rounded-40" id="send">Yozilish</button>
          </form>
       </div>
    </div>
@@ -62,5 +62,9 @@ export default {
 
    select {
       border: 1px solid #9A999B;
+   }
+
+   #send {
+      color: white !important;
    }
 </style>
