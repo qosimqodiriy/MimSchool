@@ -5,7 +5,7 @@
             <p class="heading-2 text-white-primary mb-32">Bu kurs kimlar uchun?</p>
 
             <div class="grid lg:grid-cols-2 gap-y-32 gap-x-64 lg:gap-x-100">
-               <div v-for="item in CourseAbout[type-1].Whom">
+               <div v-for="item in CourseAbout[type-1].Whom" :key="item.type">
                   <div class="flex items-start gap-10 mb-8">
                      <img class="w-28 h-28" src="@/assets/images/tick.png" alt="">
                      <h3 class="heading-5 text-white-primary">{{ item.title }}</h3>
@@ -135,13 +135,73 @@ export default {
                   },
                ]
             },
+            {
+               type: 9,
+               Whom: [
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+               ]
+            },
+            {
+               type: 10,
+               Whom: [
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+               ]
+            },
+            {
+               type: 11,
+               Whom: [
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+               ]
+            },
+            {
+               type: 12,
+               Whom: [
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+               ]
+            },
+            {
+               type: 13,
+               Whom: [
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+                  {
+                     title: "Dasturlashni yangi boshlovchilar uchun",
+                     text: "dasturlash sohasida hech qanday bilimga ega bo'lmagan har qanday inson dasturlashni oson o'rganib olishi mumkin."
+                  },
+               ]
+            },
          ]
       }
    },
 }
 </script>
-
-
-<style lang="">
-   
-</style>

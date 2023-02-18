@@ -10,7 +10,6 @@
                   data-aos-mirror="true"
                   data-aos-duration="500"
                   data-aos-easing="ease-in-out"
-                  
                   class="w-full md:w-50% lg:w-40%">
 
                   <img class="vanillaCard w-full" v-if="(item.type == 1)" src="@/assets/images/faundation.png" alt="">
@@ -18,9 +17,13 @@
                   <img class="vanillaCard w-full" v-else-if="(item.type == 3)" src="@/assets/images/backend.png" alt="">
                   <img class="vanillaCard w-full" v-else-if="(item.type == 4)" src="@/assets/images/android.png" alt="">
                   <img class="vanillaCard w-full" v-else-if="(item.type == 5)" src="@/assets/images/ios.png" alt="">
-                  <img class="vanillaCard w-full" v-else-if="(item.type == 6)" src="@/assets/images/ios.png" alt="">
-                  <img class="vanillaCard w-full" v-else-if="(item.type == 7)" src="@/assets/images/ios.png" alt="">
-                  <img class="vanillaCard w-full" v-else-if="(item.type == 8)" src="@/assets/images/ios.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 6)" src="@/assets/images/math.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 7)" src="@/assets/images/english.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 8)" src="@/assets/images/car.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 9)" src="@/assets/images/president.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 10)" src="@/assets/images/computer.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 11)" src="@/assets/images/kimyo.png" alt="">
+                  <img class="vanillaCard w-full" v-else-if="(item.type == 12)" src="@/assets/images/biologiya.png" alt="">
                </div>
 
                <div class="w-full md:w-50% lg:w-60%">
@@ -31,7 +34,6 @@
                      data-aos-mirror="true"
                      data-aos-duration="500"
                      data-aos-easing="ease-in-out"
-                     
                      class="heading-4 text-white-primary mb-32">
                      {{ item.name }} kursi
                   </h2>
@@ -198,7 +200,7 @@ export default {
             {
                type: 6,
                name: "Matematika",
-               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               text: "Oliy o’quv yurtlariga kirish yoki kelajak kasblarini egallash uchun matematika asosiy o’rin tutadi. Mim school’da abituriyentlar hamda kelajak kasblarini egallash uchun matematikadan tayyorlov kurslari mavjud bo’lib, darslar uzoq yillik tarjibaga ega ustozlar ko’magida haftada uch kun, o’quvchilar uchun qulay vaqtlarda bo’lib o’tadi. Bundan tashqari, o’quvchilarning bilimini tekshirish va mustahkamlash uchun oylik testlar hamda qo’shimcha musobaqalar o’tkazib boriladi.",
                learning: [
                   {
                      title: "Veb-saytingizni HTML va CSS-da yarating",
@@ -243,7 +245,99 @@ export default {
             },
             {
                type: 8,
-               name: "Auto maktab",
+               name: "Avtomaktab",
+               text: "Avtomaktabimiz qisqa muddatlarda sizga imtihondan muvaffaqiyatli o’tib, haydovchilik guvohnomasini olishingizga ko’maklashadi. Avtomaktab 15 yildan ortiq tajribaga ega bo’lib, asosiy maqsadi o’quvchilarni atrofdagi hamma narsadan xabardor bo’lishi va ruldagi ishonchini mustahkamlash orqali hushyor va tajribali haydovchilar tayyorlashdir.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 9,
+               name: "Prezident maktabiga tayyorlov",
+               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 10,
+               name: "Kompyuter savodxonligi",
+               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 11,
+               name: "Kimyo",
+               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               learning: [
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  },
+                  {
+                     title: "Veb-saytingizni HTML va CSS-da yarating",
+                     text: "Eng mashhur maket tillarini o'zlashtirib oling va istalgan ekranda yaxshi ko'rinadigan veb-saytlarni yarata oling."
+                  }
+               ]
+            },
+            {
+               type: 12,
+               name: "Biologiya",
                text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
                learning: [
                   {

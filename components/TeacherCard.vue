@@ -45,7 +45,7 @@ export default {
 
 .content {
    position: absolute;
-   bottom: -10 0px;
+   bottom: -100px;
    width: 100%;
    height: 100px;
    display: flex;

@@ -11,10 +11,17 @@
             </nuxt-link>
 
             <div class="hidden lg:flex items-center gap-30">
+
                <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">IT</nuxt-link>
+               <nuxt-link to="/computer" @click.native="scrollToTop" class="text-white-primary text-18">Komyuter</nuxt-link>
                <nuxt-link to="/math" @click.native="scrollToTop" class="text-white-primary text-18">Math</nuxt-link>
+               <nuxt-link to="/president" @click.native="scrollToTop" class="text-white-primary text-18">President</nuxt-link>
                <nuxt-link to="/english" @click.native="scrollToTop" class="text-white-primary text-18">English</nuxt-link>
+               <nuxt-link to="/chemistry" @click.native="scrollToTop" class="text-white-primary text-18">Kimyo</nuxt-link>
+               <nuxt-link to="/biology" @click.native="scrollToTop" class="text-white-primary text-18">Biolgiya</nuxt-link>
                <nuxt-link to="/auto" @click.native="scrollToTop" class="text-white-primary text-18">Auto</nuxt-link>
+
+
                <!-- <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Faundation</nuxt-link>
                <nuxt-link to="/frontend" @click.native="scrollToTop" class="text-white-primary text-18">Front-End</nuxt-link>
                <nuxt-link to="/backend" @click.native="scrollToTop" class="text-white-primary text-18">Back-End</nuxt-link>

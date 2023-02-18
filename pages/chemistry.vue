@@ -1,9 +1,9 @@
 <template>
-   <div>
-         <main-section :type="8" />
-         <course-about :type="8" />
-         <question-register />
-   </div>
+    <div>
+        <main-section :type="11" />
+        <course-about :type="11" />
+        <question-register />
+    </div>
 </template>
 
 
@@ -15,10 +15,10 @@ const CourseAbout = defineAsyncComponent(() => import('@/components/CourseAbout.
 const QuestionRegister = defineAsyncComponent(() => import('@/components/QuestionRegister.vue'))
 
 export default {
-   components: {
-      MainSection,
-      CourseAbout,
-      QuestionRegister,
-   }
+    components: {
+        MainSection,
+        CourseAbout,
+        QuestionRegister,
+    }
 }
 </script>

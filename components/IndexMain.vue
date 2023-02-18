@@ -8,7 +8,7 @@
                <span class="heading-1 text-center headText-2 animate_text-2">Math.School</span>
                <span class="heading-1 text-center headText-2 animate_text-3">Auto.School</span>
             </div>
-            <div class="flex justify-center mb-100 md:mb-60 lg:mb-80">
+            <div class="flex justify-center mb-100 md:mb-60 lg:mb-80 animate-bounce">
                <a href="#register" class="caps-subtitle btn text-white-primary px-60 md:px-80 py-10 md:py-15 rounded-54">Yozilish</a>
             </div>
 

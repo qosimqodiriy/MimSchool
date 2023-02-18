@@ -28,6 +28,7 @@
                   <div class="flex flex-col gap-12">
                      <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IT</nuxt-link>
                      <nuxt-link @click.native="scrollToTop" to="/math" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/president" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">President</nuxt-link>
                      <nuxt-link @click.native="scrollToTop" to="/english" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">English</nuxt-link>
                      <nuxt-link @click.native="scrollToTop" to="/auto" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Auto</nuxt-link>
                      <!-- <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kimyo</nuxt-link> -->
@@ -64,13 +65,7 @@
          <div class="w-full flex flex-col md:flex-row md:items-center md:justify-between gap-20 md:gap-30 lg:gap-40">
             <div class="max-w-400">
                <p class="subtitle text-white-primary">© 2023 MimEdu MCHJ</p>
-               <!-- <p class="subtitle text-white-primary">Shaxsiy ma'lumotlarni qayta ishlash siyosati</p> -->
             </div>
-
-            <!-- <div class="inline-flex items-start gap-10 max-w-400">
-               <img src="@/assets/images/footer-icon.png" alt="">
-               <p class="subtitle-2 text-white-primary"><span class="subtitle-2 text-blue">Сайт разработан в</span> National Development Community Перейти на сайт разработчиков</p>
-            </div> -->
          </div>
       </div>
    </div>
