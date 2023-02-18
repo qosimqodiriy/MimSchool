@@ -5,7 +5,7 @@
       "link": "/faundation",
       "price": "360 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Foundation kursi o’quvchilarga dasturlashning C++ kompyuter tilidan foydalangan holda dasturlash asoslarini o’rgatadi. Ushbu kurs talabalarga dasturlash va dasturiy ta’minot ishlab chiqarish bilan bog’liq bo’lgan asosiy tushunchalar, texnikalar, jarayonlarni va ular bilan qanday ishlashni taqdim etadi. Foundation kursi asosan dasturlashda muammolarni hal qilish ko’nikmalarini o’rgatadi va ushbu kursni muvaffaqaiyatli tugatgan o’quvchilar xohlagan dasturlash tilini oson o’rgana oladilar.",
       "frameworks": [
          {
             "id": 1,
@@ -30,7 +30,7 @@
       "link": "/frontend",
       "price": "400 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Frontend bu yaratilayotgan veb-ilovaning foydalanuvchilarga ko’rinadigan qismidir.Frontend dasturchisi mijozlar uchun turli-xil vebsayt va veb ilovalar yaratadi. Dasturchi Html, Css, Java Script tillaridan foydalanib saytni siz-u biz foydalanadigan holatga keltiradi. <br> <br> Frontend kursimizda HTML, CSS, Java Script tillari va Vue.js freymvorki o’rgatiladi. Bu kursda siz real loyihalar bilan ishlab o’z tajribangizni oshirasiz.",
       "frameworks": [
          {
             "id": 1,
@@ -60,7 +60,7 @@
       "link": "/backend",
       "price": "450 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Backend - bu vebsahifalar va ilovalarning oddiy foydalanuvchilarga ko’rinmaydigan qismi hisoblanib, backend dasturchilari asosan informatsiyalar, ma’lumotlar bazalari bilan ishlaydi. Backend ITning eng muhim sohasi hisoblanib, deyarli barcha: frontend developerdan tortib, android/ios developerlar bilan  ishlaydi. Backend development uchun kotlin, java, ruby, php kabi tillar ishlatiladi. <br> <br> Backend development kursida Kotlin dasturlash tilidan foydalanib backend’ni o’rganamiz.",
       "frameworks": [
          {
             "id": 1,
@@ -85,22 +85,22 @@
       "link": "/android",
       "price": "450 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Dunyodagi smartfonlarning 80 foizidan ortig’i android tizimida ishlaydi va bu hamma joyda dasturchilar uchun ajoyib imkoniyatdir. Sizning ham android dunyosida yuqori o’rinlarni egallashga imkon bor. Ushbu Android ilovalarini ishlab chiqish asoslari kursi sizni Android dunyosi bilan tanishtiradi va android ilovalarini noldan yaratishni o'rgatadi. Siz asta-sekin asoslarni o’rganishdan boshlaysiz va Android studio bilan tanishasiz. Shundan so'ng siz barcha muhim mavzularni o'rganishga o'tasiz, barcha muhim tushunchalar va texnikalar sizni mukammal Android dasturchisiga aylantiradi. Oxirida siz Androidda o'zingizning ilovangizni yaratish orqali o'rgangan narsalaringizni amaliyotda qo'llash imkoniyatiga ega bo'lasiz.",
       "frameworks": [
          {
             "id": 1,
             "name": "Android studio",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M6.382 3.968A8.962 8.962 0 0 1 12 2c2.125 0 4.078.736 5.618 1.968l1.453-1.453 1.414 1.414-1.453 1.453A8.962 8.962 0 0 1 21 11v1H3v-1c0-2.125.736-4.078 1.968-5.618L3.515 3.93l1.414-1.414 1.453 1.453zM3 14h18v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7zm6-5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
          },
          {
             "id": 2,
             "name": "html",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M6.382 3.968A8.962 8.962 0 0 1 12 2c2.125 0 4.078.736 5.618 1.968l1.453-1.453 1.414 1.414-1.453 1.453A8.962 8.962 0 0 1 21 11v1H3v-1c0-2.125.736-4.078 1.968-5.618L3.515 3.93l1.414-1.414 1.453 1.453zM3 14h18v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7zm6-5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
          },
          {
             "id": 3,
             "name": "html",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M6.382 3.968A8.962 8.962 0 0 1 12 2c2.125 0 4.078.736 5.618 1.968l1.453-1.453 1.414 1.414-1.453 1.453A8.962 8.962 0 0 1 21 11v1H3v-1c0-2.125.736-4.078 1.968-5.618L3.515 3.93l1.414-1.414 1.453 1.453zM3 14h18v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7zm6-5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
          }
       ]
    },
@@ -110,22 +110,22 @@
       "link": "/ios",
       "price": "500 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "iOS kursi bu Apple’ning barcha qurilmalari uchun ilovalar yaratadigan dasturlashning bir sohasidir. Ushbu kurs sizni to'liq boshlang'ichdan o'ziga ishongan amaliyotchi darajasigacha olib boradi, chunki biz nazariyani e'tiborsiz qoldirmasdan amaliy rivojlanishiga e'tibor qaratamiz! <br> <br> Biz kurs davomida haqiqiy ilovalar, o'yinlar va mavjud mashhur ilovalarning klonlarini va yana ko’p narsalarni yaratamiz. Ushbu loyihalar va amaliy mashg’ulotlar davomida siz Swift va iOS’ning barcha tafsilotlarini, jumladan Swift dasturlash tili asoslari, UIKit, SwiftUI’larni o’rganasiz va amaliyotda qo’llaysiz. <br> <br> Nimalarni o’rganasiz. <br> Swift dasturlash tili -  Barcha apple qurilmalari uchun ishlatiladigan swift’ni o’rganasiz. UIKit - UIK freymvorkini.",
       "frameworks": [
          {
             "id": 1,
             "name": "IOS",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M11.624 7.222c-.876 0-2.232-.996-3.66-.96-1.884.024-3.612 1.092-4.584 2.784-1.956 3.396-.504 8.412 1.404 11.172.936 1.344 2.04 2.856 3.504 2.808 1.404-.06 1.932-.912 3.636-.912 1.692 0 2.172.912 3.66.876 1.512-.024 2.472-1.368 3.396-2.724 1.068-1.56 1.512-3.072 1.536-3.156-.036-.012-2.94-1.128-2.976-4.488-.024-2.808 2.292-4.152 2.4-4.212-1.32-1.932-3.348-2.148-4.056-2.196-1.848-.144-3.396 1.008-4.26 1.008zm3.12-2.832c.78-.936 1.296-2.244 1.152-3.54-1.116.048-2.46.744-3.264 1.68-.72.828-1.344 2.16-1.176 3.432 1.236.096 2.508-.636 3.288-1.572z"
          },
          {
             "id": 2,
             "name": "IOS",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M11.624 7.222c-.876 0-2.232-.996-3.66-.96-1.884.024-3.612 1.092-4.584 2.784-1.956 3.396-.504 8.412 1.404 11.172.936 1.344 2.04 2.856 3.504 2.808 1.404-.06 1.932-.912 3.636-.912 1.692 0 2.172.912 3.66.876 1.512-.024 2.472-1.368 3.396-2.724 1.068-1.56 1.512-3.072 1.536-3.156-.036-.012-2.94-1.128-2.976-4.488-.024-2.808 2.292-4.152 2.4-4.212-1.32-1.932-3.348-2.148-4.056-2.196-1.848-.144-3.396 1.008-4.26 1.008zm3.12-2.832c.78-.936 1.296-2.244 1.152-3.54-1.116.048-2.46.744-3.264 1.68-.72.828-1.344 2.16-1.176 3.432 1.236.096 2.508-.636 3.288-1.572z"
          },
          {
             "id": 3,
             "name": "IOS",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M11.624 7.222c-.876 0-2.232-.996-3.66-.96-1.884.024-3.612 1.092-4.584 2.784-1.956 3.396-.504 8.412 1.404 11.172.936 1.344 2.04 2.856 3.504 2.808 1.404-.06 1.932-.912 3.636-.912 1.692 0 2.172.912 3.66.876 1.512-.024 2.472-1.368 3.396-2.724 1.068-1.56 1.512-3.072 1.536-3.156-.036-.012-2.94-1.128-2.976-4.488-.024-2.808 2.292-4.152 2.4-4.212-1.32-1.932-3.348-2.148-4.056-2.196-1.848-.144-3.396 1.008-4.26 1.008zm3.12-2.832c.78-.936 1.296-2.244 1.152-3.54-1.116.048-2.46.744-3.264 1.68-.72.828-1.344 2.16-1.176 3.432 1.236.096 2.508-.636 3.288-1.572z"
          }
       ]
    },
@@ -135,7 +135,7 @@
       "link": "/math",
       "price": "240 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Oliy o’quv yurtlariga kirish yoki kelajak kasblarini egallash uchun matematika asosiy o’rin tutadi. Mim school’da abituriyentlar hamda kelajak kasblarini egallash uchun matematikadan tayyorlov kurslari mavjud bo’lib, darslar uzoq yillik tajribaga ega ustozlar ko’magida haftada uch kun, o’quvchilar uchun qulay vaqtlarda bo’lib o’tadi. Bundan tashqari, o’quvchilarning bilimini tekshirish va mustahkamlash uchun oylik testlar hamda qo’shimcha musobaqalar o’tkazib boriladi.",
       "frameworks": [
          {
             "id": 1,
@@ -160,7 +160,7 @@
       "link": "/english",
       "price": "240 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Kelajagingizga investitsiyani aynan  ingliz tilini o’rganish orqali kiriting. Chunki, statistikalarga ko’ra, hozirda ingliz tilini bilish sizni bilmaydiganlardan ko’ra o’n karra ortiq muvaffaqiyatli qiladi. Mim school’da muvaffaqiyatga eltish uchun bolalar, kattalar va abituriyentlarga mo’ljallangan ingliz tili kurslari tashkil etilgan. Darslar malakali ustozlar tomonidan haftada eng kamida uch marotaba va ikki soatdan oshiqroq vaqt mobaynida o’tiladi.",
       "frameworks": [
          {
             "id": 1,
@@ -185,22 +185,22 @@
       "link": "/auto",
       "price": "1 500 000",
       "icon": "M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z",
-      "description": "FrontEnd разработчик создает видимую для пользователя часть веб-страницы, реализовать пользовательскую логику.пользователя часть веб-страницы, реализовать пользовательскую логику.",
+      "description": "Avtomaktabimiz qisqa muddatlarda sizga imtihondan muvaffaqiyatli o’tib, haydovchilik guvohnomasini olishingizga ko’maklashadi. Avtomaktab 15 yildan ortiq tajribaga ega bo’lib, asosiy maqsadi o’quvchilarni atrofdagi hamma narsadan xabardor bo’lishi va ruldagi ishonchini mustahkamlash orqali hushyor va tajribali haydovchilar tayyorlashdir.",
       "frameworks": [
          {
             "id": 1,
             "name": "IOS",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M22 13.5V21a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H5v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-7.5l-1.243-.31A1 1 0 0 1 0 12.22v-.72a.5.5 0 0 1 .5-.5h1.929L4.48 6.212A2 2 0 0 1 6.319 5H8V3h3v2h2V3h3v2h1.681a2 2 0 0 1 1.838 1.212L21.571 11H23.5a.5.5 0 0 1 .5.5v.72a1 1 0 0 1-.757.97L22 13.5zM4 15v2a1 1 0 0 0 1 1h3.245a.5.5 0 0 0 .44-.736C7.88 15.754 6.318 15 4 15zm16 0c-2.317 0-3.879.755-4.686 2.264a.5.5 0 0 0 .441.736H19a1 1 0 0 0 1-1v-2zM6 7l-1.451 3.629A1 1 0 0 0 5.477 12h13.046a1 1 0 0 0 .928-1.371L18 7H6z"
          },
          {
             "id": 2,
             "name": "IOS",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M22 13.5V21a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H5v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-7.5l-1.243-.31A1 1 0 0 1 0 12.22v-.72a.5.5 0 0 1 .5-.5h1.929L4.48 6.212A2 2 0 0 1 6.319 5H8V3h3v2h2V3h3v2h1.681a2 2 0 0 1 1.838 1.212L21.571 11H23.5a.5.5 0 0 1 .5.5v.72a1 1 0 0 1-.757.97L22 13.5zM4 15v2a1 1 0 0 0 1 1h3.245a.5.5 0 0 0 .44-.736C7.88 15.754 6.318 15 4 15zm16 0c-2.317 0-3.879.755-4.686 2.264a.5.5 0 0 0 .441.736H19a1 1 0 0 0 1-1v-2zM6 7l-1.451 3.629A1 1 0 0 0 5.477 12h13.046a1 1 0 0 0 .928-1.371L18 7H6z"
          },
          {
             "id": 3,
             "name": "IOS",
-            "icon": "M12 18.178l4.62-1.256.623-6.778H9.026L8.822 7.89h8.626l.227-2.211H6.325l.636 6.678h7.82l-.261 2.866-2.52.667-2.52-.667-.158-1.844h-2.27l.329 3.544L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"
+            "icon": "M22 13.5V21a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H5v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-7.5l-1.243-.31A1 1 0 0 1 0 12.22v-.72a.5.5 0 0 1 .5-.5h1.929L4.48 6.212A2 2 0 0 1 6.319 5H8V3h3v2h2V3h3v2h1.681a2 2 0 0 1 1.838 1.212L21.571 11H23.5a.5.5 0 0 1 .5.5v.72a1 1 0 0 1-.757.97L22 13.5zM4 15v2a1 1 0 0 0 1 1h3.245a.5.5 0 0 0 .44-.736C7.88 15.754 6.318 15 4 15zm16 0c-2.317 0-3.879.755-4.686 2.264a.5.5 0 0 0 .441.736H19a1 1 0 0 0 1-1v-2zM6 7l-1.451 3.629A1 1 0 0 0 5.477 12h13.046a1 1 0 0 0 .928-1.371L18 7H6z"
          }
       ]
    },

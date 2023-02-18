@@ -6,7 +6,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path :d="item.icon" fill="rgba(255,255,255,1)" /></svg>
             <h3 class="heading-3 text-white-primary">{{ item.name }}</h3>
          </div>
-         <p class="subtitle-1 text-white-primary max-w-800 mb-40 md:mb-30">{{ item.description }}</p>
+         <p class="subtitle-1 text-white-primary max-w-800 mb-40 md:mb-30 line-clamp-6" v-html="item.description"></p>
          <div class="flex items-center gap-20 flex-wrap">
             <div v-for="framework in item.frameworks" :key="framework.id" class="px-20 py-10 inline-flex items-center gap-10 rounded-40 border border-Old-Lavender">
                <!-- <img class="w-24 h-24" src="@/assets/images/html.png" alt=""> -->
