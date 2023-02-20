@@ -17,9 +17,9 @@
                <nuxt-link to="/math" @click.native="scrollToTop" class="text-white-primary text-18">Math</nuxt-link>
                <nuxt-link to="/president" @click.native="scrollToTop" class="text-white-primary text-18">President</nuxt-link>
                <nuxt-link to="/english" @click.native="scrollToTop" class="text-white-primary text-18">English</nuxt-link>
+               <nuxt-link to="/auto" @click.native="scrollToTop" class="text-white-primary text-18">Auto</nuxt-link>
                <nuxt-link to="/chemistry" @click.native="scrollToTop" class="text-white-primary text-18">Kimyo</nuxt-link>
                <nuxt-link to="/biology" @click.native="scrollToTop" class="text-white-primary text-18">Biolgiya</nuxt-link>
-               <nuxt-link to="/auto" @click.native="scrollToTop" class="text-white-primary text-18">Auto</nuxt-link>
 
 
                <!-- <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">Faundation</nuxt-link>

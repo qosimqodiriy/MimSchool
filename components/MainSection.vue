@@ -292,7 +292,7 @@ export default {
             {
                type: 10,
                name: "Kompyuter savodxonligi",
-               text: "Veb-developerlarga bo'lgan talab yuqoriligicha qolmoqda - biznesning daromadi bevosita mijozlar uchun kompaniya veb-saytidan foydalanish qanchalik qulayligiga bog'liq. <br/> <br/> So'nggi bir necha yil ichida deyarli barcha biznes oflayn rejimidan onlayn rejimga o'tdi, shuning uchun UX/UI dizaynerlar talab yuqori bo’lgan kasb egalari xisoblanadi.",
+               text: "Kompyuter savodxonligi hamma bilishi va o’rganishi shart bo’lgan bilimlar majmuyidir. Kompyuter savodxonligi kursi talabalarni kompyuterdan foydalanish asoslari bilan tanishtirish uchun mo'ljallangan. U operatsion tizimlardan foydalanish, internet va matnni qayta ishlash, word, excel, powerpoint hamda google workspace kabi ofis dasturlaridan foydalanishni qamrab oladi. O’quvchilar kursda, shuningdek, ma'lumotlar va ma'lumotlardan foydalanish, dasturlashning boshlang’ich asoslari bilan tanishadilar.",
                learning: [
                   {
                      title: "Veb-saytingizni HTML va CSS-da yarating",
