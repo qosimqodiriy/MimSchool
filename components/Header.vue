@@ -1,5 +1,5 @@
 <template>
-   <div class="sticky top-0 w-full bg-black py-20 md:py-25 z-50">
+   <div id="header" class="fixed top-0 left-0 w-full bg-black py-20 md:py-25 z-50">
       <div class="myContainer ">
          <div class="w-full flex items-center justify-between">
             <nuxt-link @click.native="scrollToTop" to="/" class="inline-flex items-center gap-10">
@@ -11,7 +11,7 @@
             </nuxt-link>
 
             <div class="hidden lg:flex items-center gap-30">
-
+              
                <nuxt-link to="/faundation" @click.native="scrollToTop" class="text-white-primary text-18">IT</nuxt-link>
                <nuxt-link to="/computer" @click.native="scrollToTop" class="text-white-primary text-18">Komyuter</nuxt-link>
                <nuxt-link to="/math" @click.native="scrollToTop" class="text-white-primary text-18">Math</nuxt-link>
@@ -78,12 +78,36 @@ export default {
          this.isMenuOpen = false;
       }
    },
+
+   mounted() {
+      let lastScrollTop = 110;
+      let navbar = document.querySelector('#header')
+
+      window.addEventListener('scroll', function() {
+         let scrollTop = window.pageYOffset || document.documentElement.scrollTop
+         console.log(lastScrollTop);
+         console.log(scrollTop);
+
+         if(scrollTop > lastScrollTop && lastScrollTop >= 110) {
+            navbar.style.top = '-110px'
+         } else {
+            navbar.style.top = '0'
+         }
+
+         lastScrollTop = scrollTop
+      })
+   }
 }
 </script>
 
 
 
 <style scoped lang="css">
+   #header {
+      width: 100%;
+      transition: 0.5s;
+      transition-duration: 150;
+   }
    .burger_div {
       transition: 0.5s ease-in;
       transform: translateX(768px);

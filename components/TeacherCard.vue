@@ -1,6 +1,8 @@
 <template>
    <div class="w-full h-full min-h-235 overflow-hidden rounded-24 md:rounded-32 relative teacherCard">
-      <img class="w-full h-full max-h-513 object-cover object-center" src="@/assets/images/teacher.png" alt="">
+      <img v-if="item.id == 3" class="card_img" src="@/assets/images/teacher3.jpg" alt="">
+      <img v-else-if="item.id == 8" class="card_img" src="@/assets/images/teacher8.jpg" alt="">
+      <img v-else class="card_img" src="@/assets/images/teacher.png" alt="">
       
       <div v-if="show" class="content">
          <div class="contentBx">
@@ -40,6 +42,19 @@ export default {
 <style lang="css" scoped>
 .teacherCard {
    background: linear-gradient(180deg, rgba(39, 33, 57, 0) 42.19%, rgba(39, 33, 57, 0.8) 100%);
+}
+.card_img {
+   width: 100%;
+   height: 100%;
+   transition: 0.5s;
+   object-fit: cover;
+   object-position: center;
+}
+.teacherCard:hover .card_img {
+   width: 150%;
+   height: 150%;
+   object-fit: cover;
+   object-position: right center;
 }
 
 
@@ -122,5 +137,32 @@ export default {
    font-size: 24px;
    margin: 0;
    padding: 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+   .teacherCard .card_img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-position: center;
+   }
+   .teacherCard .content {
+      bottom: 0;
+   }
+   .teacherCard .content .contentBx h3 {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+   .teacherCard .content .contentBx p {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+   .teacherCard .content .sci li {
+      opacity: 1;
+      transform: translateY(0px);
+   }
 }
 </style>

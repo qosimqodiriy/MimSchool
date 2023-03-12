@@ -38,7 +38,7 @@
 
   </v-app> -->
 
-  <div class="flex flex-col min-h-screen bg-white-secondary relative">
+  <div class="flex flex-col min-h-screen bg-white-secondary relative pt-100 md:pt-108">
     <TheHeader />
     <div class="flex-auto">
       <nuxt />

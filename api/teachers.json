@@ -1,6 +1,6 @@
 [
    {
-      "id": 2,
+      "id": 1,
       "name" : "Tolmasbek Abduvaliyev",
       "job" : "Matematika o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -22,7 +22,7 @@
       ]
    },
    {
-      "id": 4,
+      "id": 2,
       "name" : "Almuratova Asila",
       "job" : "Ingliz tili o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -52,7 +52,7 @@
       ]
    },
    {
-      "id": 3,
+      "id": 4,
       "name" : "Usmonova Hilola",
       "job" : "Kimyo o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -67,7 +67,7 @@
       ]
    },
    {
-      "id": 3,
+      "id": 5,
       "name" : "Xudoyberdiyeva Sitora",
       "job" : "Biologiya o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -82,7 +82,7 @@
       ]
    },
    {
-      "id": 3,
+      "id": 6,
       "name" : "Abdusalomova Ozoda",
       "job" : "Mental arifmetika o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -97,7 +97,7 @@
       ]
    },
    {
-      "id": 3,
+      "id": 7,
       "name" : "Toshxo'jayeva Gulasal",
       "job" : "Ingliz tili o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -112,7 +112,7 @@
       ]
    },
    {
-      "id": 3,
+      "id": 8,
       "name" : "Baxriddinova Dilnura",
       "job" : "Ingliz tili o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
@@ -134,7 +134,7 @@
       ]
    },
    {
-      "id": 1,
+      "id": 9,
       "name": "Qosimjon Qodirov",
       "job": "Front-End o'qituvchisi",
       "description": ".Net platformasi, C# va Golang dasturlash tillari, HTML, CSS, JS, TypeScript, React, NodeJS kabi bir qator veb-texnologiyalar va yana koʻplab yoʻnalishlar boʻyicha oliy toifali mutaxassis, dasturlash sohasida 20 yildan ziyod malakaga ega ustoz. <br/> <br/> 2011-yildan buyon moliya va bank sohasida avtomatlashtirish bilan shugʻullanuvchi Malayziyaning Consolsys Technologies kompaniyasida faoliyat yuritadi.",
