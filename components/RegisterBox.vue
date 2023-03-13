@@ -52,7 +52,7 @@ export default {
 
    .before-anchor {
       position: absolute;
-      top: -152px;
+      top: -110px;
       left: 0;
    }
 

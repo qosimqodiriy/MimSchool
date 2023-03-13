@@ -1,7 +1,7 @@
 <template>
    <div>
-      <div id="courses" class="relative -top-50"></div>
-      <div class="w-full bg-black py-60 md:py-72 lg:py-84 xl:py-100 2xl:py-120">
+      <!-- <div  class="relative -top-50"></div> -->
+      <div id="courses" class="w-full bg-black py-60 md:py-72 lg:py-84 xl:py-100 2xl:py-120">
          <div class="myContainer">
             <p class="overline-1 text-Cool-Grey mb-8 uppercase text-center md:text-start">Kurslarimiz</p>
             <h2 class="heading-2 text-white-primary mb-40 md:mb-32 text-center md:text-start">Bizning darslar</h2>

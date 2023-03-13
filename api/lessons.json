@@ -162,7 +162,7 @@
    },
    {
       "type": 7,
-      "show": true,
+      "show": false,
       "name": "Ingliz tili",
       "link": "/english",
       "price": "240 000",
@@ -240,7 +240,7 @@
    },
    {
       "type": 10,
-      "show": true,
+      "show": false,
       "name": "Kompyuter Savodxonligi",
       "link": "/computer",
       "price": "360 000",
