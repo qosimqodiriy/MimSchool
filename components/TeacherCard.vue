@@ -1,8 +1,10 @@
 <template>
-   <div class="w-full h-full min-h-235 overflow-hidden rounded-24 md:rounded-32 relative teacherCard">
-      <img v-if="item.id == 3" class="card_img" src="@/assets/images/teacher3.jpg" alt="">
+   <div class="w-full h-full min-h-235 md:min-h-370 overflow-hidden rounded-24 md:rounded-32 relative teacherCard">
+      <img v-if="item.id == 1" class="card_img" src="@/assets/images/man_user_2.png" alt="">
+      <img v-else-if="item.id == 3" class="card_img" src="@/assets/images/teacher3.jpg" alt="">
       <img v-else-if="item.id == 8" class="card_img" src="@/assets/images/teacher8.jpg" alt="">
-      <img v-else class="card_img" src="@/assets/images/teacher.png" alt="">
+      <img v-else-if="item.id == 9" class="card_img" src="@/assets/images/man_user_2.png" alt="">
+      <img v-else class="card_img" src="@/assets/images/woman_user_1.jpg" alt="">
       
       <div v-if="show" class="content">
          <div class="contentBx">

@@ -1,6 +1,7 @@
 [
    {
       "type": 1,
+      "show": true,
       "name": "Foundation",
       "link": "/faundation",
       "price": "360 000",
@@ -26,6 +27,7 @@
    },
    {
       "type": 2,
+      "show": true,
       "name": "Front-End",
       "link": "/frontend",
       "price": "400 000",
@@ -56,6 +58,7 @@
    },
    {
       "type": 3,
+      "show": true,
       "name": "Back-End",
       "link": "/backend",
       "price": "450 000",
@@ -81,6 +84,7 @@
    },
    {
       "type": 4,
+      "show": true,
       "name": "Android",
       "link": "/android",
       "price": "450 000",
@@ -106,6 +110,7 @@
    },
    {
       "type": 5,
+      "show": true,
       "name": "IOS",
       "link": "/ios",
       "price": "500 000",
@@ -131,6 +136,7 @@
    },
    {
       "type": 6,
+      "show": false,
       "name": "Matematika",
       "link": "/math",
       "price": "240 000",
@@ -156,6 +162,7 @@
    },
    {
       "type": 7,
+      "show": true,
       "name": "Ingliz tili",
       "link": "/english",
       "price": "240 000",
@@ -181,6 +188,7 @@
    },
    {
       "type": 8,
+      "show": false,
       "name": "Automaktab",
       "link": "/auto",
       "price": "1 500 000",
@@ -206,6 +214,7 @@
    },
    {
       "type": 9,
+      "show": false,
       "name": "Prezident maktabi",
       "link": "/president",
       "price": "480 000",
@@ -231,6 +240,7 @@
    },
    {
       "type": 10,
+      "show": true,
       "name": "Kompyuter Savodxonligi",
       "link": "/computer",
       "price": "360 000",
@@ -256,6 +266,7 @@
    },
    {
       "type": 11,
+      "show": false,
       "name": "Kimyo",
       "link": "/chemistry",
       "price": "240 000",
@@ -281,6 +292,7 @@
    },
    {
       "type": 12,
+      "show": false,
       "name": "Biologiya",
       "link": "/biology",
       "price": "240 000",

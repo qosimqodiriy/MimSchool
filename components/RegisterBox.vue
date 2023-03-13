@@ -15,7 +15,7 @@
             <input type="text" v-model="name" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 placeholder:text-Spanish-Gray outline-none" placeholder="Ismingizni kiritng" required />
             <input type="number" v-model="phone" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 placeholder:text-Spanish-Gray outline-none" placeholder="Telefon raqamingiz" required />
             <select v-model="course" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle text-Gunmetal bg-Cultured w-full rounded-32 md:rounded-40 outline-none">
-               <option v-for="(item, index) in lessons" :key="index.type" class="text-Gunmetal w-full max-w-full" :value="item.type">{{ item.name }}</option>
+               <option v-for="(item, index) in lessons" :key="index.type" v-show="item.show" class="text-Gunmetal w-full max-w-full" :value="item.type">{{ item.name }}</option>
             </select>
             <button type="submit" class="px-20 2xl:px-32 py-15 2xl:py-20 subtitle bg-blue text-center text-white-primary w-full rounded-32 md:rounded-40" id="send">Yozilish</button>
          </form>

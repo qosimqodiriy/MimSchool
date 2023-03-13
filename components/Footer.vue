@@ -26,12 +26,16 @@
                <div class="w-50%">
                   <h3 class="heading-6 text-white-primary mb-24">Kurslar</h3>
                   <div class="flex flex-col gap-12">
-                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IT</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/math" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/president" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">President</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/computer" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Komyuter</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Faundation</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/frontend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Front-End</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/backend" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Back-End</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/android" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Android</nuxt-link>
+                     <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">IOS</nuxt-link>
+                     <!-- <nuxt-link @click.native="scrollToTop" to="/math" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Math</nuxt-link> -->
+                     <!-- <nuxt-link @click.native="scrollToTop" to="/president" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">President</nuxt-link> -->
                      <nuxt-link @click.native="scrollToTop" to="/english" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">English</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/auto" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Auto</nuxt-link>
-                     <!-- <nuxt-link @click.native="scrollToTop" to="/ios" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kimyo</nuxt-link> -->
+                     <!-- <nuxt-link @click.native="scrollToTop" to="/auto" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Auto</nuxt-link> -->
                   </div>
                </div>
 
@@ -39,8 +43,9 @@
                   <h3 class="heading-6 text-white-primary mb-24">Menyular</h3>
                   <div class="flex flex-col gap-12">
                      <nuxt-link @click.native="scrollToTop" to="/about" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Biz haqimizda</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/faundation" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kurslarimiz</nuxt-link>
-                     <nuxt-link @click.native="scrollToTop" to="/teachers" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Ustozlar</nuxt-link>
+                     <!-- <nuxt-link @click.native="scrollToTop" to="/#courses" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kurslarimiz</nuxt-link> -->
+                     <!-- <nuxt-link @click.native="scrollToTop" to="/teachers" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Ustozlar</nuxt-link> -->
+                     <a href="#courses" class="subtitle-m text-Spanish-Gray hover:text-white-primary transition-all duration-500">Kurslarimiz</a>
                   </div>
                </div>
             </div>
