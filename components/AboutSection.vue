@@ -37,13 +37,13 @@
             </div>
          </div>
 
-         <div>
+         <!-- <div>
             <p class="overline-1 text-Cool-Grey mb-8 uppercase text-center md:text-start">O‘qituvchilar</p>
             <h2 class="heading-2 text-Rich-Black mb-40 md:mb-32 text-center md:text-start">Akademiyada o’qitadigan ustozlar</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 md:gap-14 lg:gap-20">
                <teacher-card class="vanilla" v-for="item in teachers" :key="item.id" :item="item" :show="true" />
             </div>
-         </div>
+         </div> -->
 
          <div class="grid grid-cols-1 lg:grid-cols-5 gap-24">
             <div class="w-full min-h-370 rounded-24 lg:col-span-2 overflow-hidden bg-white-primary map">
