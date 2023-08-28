@@ -55,15 +55,21 @@
                <div class="w-full flex flex-col lg:flex-row items-center gap-40 mb-40">
                   <div class="w-full">
                      <p class="overline-1 text-Rich-Black mb-8">Contacts:</p>
-                     <p class="subtitle text-Rich-Black">+998 78 113 15 51</p>
+                     <a href="tel:++998781131551">
+                        <p class="subtitle text-Rich-Black">+998 78 113 15 51</p>
+                     </a>
                   </div>
                   <div class="w-full">
                      <p class="overline-1 text-Rich-Black mb-8">Email:</p>
-                     <p class="subtitle text-Rich-Black">hi@mim.school</p>
+                     <a href="mailto:hi@mim.school">
+                        <p class="subtitle text-Rich-Black">hi@mim.school</p>
+                     </a>
                   </div>
                </div>
                <p class="overline-1 text-Rich-Black mb-8">Manzil:</p>
-               <p class="subtitle text-Rich-Black">Samarqand sh. Qorasuv mavzesi, 12A, 2-qavat</p>
+               <a href="https://goo.gl/maps/iahAxBqhCdpv7nNq5" target="_blank">
+                  <p class="subtitle text-Rich-Black">Samarqand sh. Qorasuv mavzesi, 12A, 2-qavat</p>
+               </a>
             </div>
          </div>
       </div>

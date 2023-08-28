@@ -3,7 +3,7 @@
       <p class="overline-1 text-center text-Spanish-Gray uppercase">faq</p>
       <p class="heading-2 text-center text-Jet mb-40">Ko‘p so‘ralgan savollar</p>
 
-      <div class="rounded-16 overflow-hidden border border-white-secondary">
+      <div class="rounded-16 overflow-hidden border border-white-secondary max-w-1200 mx-auto">
          <div class="rounded-t-16 md:rounded-16 overflow-hidden border border-white-secondary">
             <div v-for="(item, index) in lists" :key="index" class="contentBox overflow-hidden bg-white-primary" :class="tab == index ? 'active bg-gray' : ''">
                <div @click="clickMe(index)" class="header w-full flex items-center justify-between gap-15 p-10 px-15 md:py-12 lg:py-15 md:px-20 lg:px-25 cursor-pointer">
