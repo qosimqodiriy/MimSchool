@@ -129,6 +129,42 @@ export default {
         rgba(17, 17, 18, 0) 10%,
         rgba(0, 0, 0, 0.8) 100%);
    }
+   .burger_div {
+      transition: 0.5s ease;
+      transform: translateX(768px);
+      /* backdrop-filter: blur(0px); */
+   }
+   .burger_div.active {
+      transform: translateX(0px);
+      /* backdrop-filter: blur(10px); */
+      /* background: linear-gradient(5deg,
+        rgba(25, 24, 31, 0) 10%,
+        rgba(25, 24, 31, 0.8) 100%); */
+   }
+   .burger_bg {
+      backdrop-filter: blur(10px);
+      background: linear-gradient(5deg,
+        rgba(17, 17, 18, 0) 10%,
+        rgba(0, 0, 0, 0.8) 100%);
+   }
+   .burger_div {
+      transition: 0.5s ease;
+      transform: translateX(768px);
+      /* backdrop-filter: blur(0px); */
+   }
+   .burger_div.active {
+      transform: translateX(0px);
+      /* backdrop-filter: blur(10px); */
+      /* background: linear-gradient(5deg,
+        rgba(25, 24, 31, 0) 10%,
+        rgba(25, 24, 31, 0.8) 100%); */
+   }
+   .burger_bg {
+      backdrop-filter: blur(10px);
+      background: linear-gradient(5deg,
+        rgba(17, 17, 18, 0) 10%,
+        rgba(0, 0, 0, 0.8) 100%);
+   }
 
    .navbar {
       position: relative;

@@ -4,11 +4,11 @@
          <div class="animate__animated animate__fadeInUp overflow-hidden">
             <h1 class="headText-1 text-white-primary text-center mb-50">Kelajak Kasblari Maktabi</h1>
             <!-- Vaqtinchalik o'chirib qo'yilgan -->
-            <!-- <div class="text_box mb-60">
+            <div class="text_box mb-60">
                <span class="heading-1 text-center headText-2 animate_text-1">IT.School</span>
                <span class="heading-1 text-center headText-2 animate_text-2">Math.School</span>
                <span class="heading-1 text-center headText-2 animate_text-3">Auto.School</span>
-            </div> -->
+            </div>
             <div class="flex justify-center mb-100 md:mb-60 lg:mb-80 animate-bounce">
                <a href="#register" class="caps-subtitle btn text-white-primary px-60 md:px-80 py-10 md:py-15 rounded-54">Yozilish</a>
             </div>
@@ -46,49 +46,49 @@ export default {
       },
 
       addActive() {
-         // let text1 = document.querySelector('.animate_text-1');
-         // let text2 = document.querySelector('.animate_text-2');
-         // let text3 = document.querySelector('.animate_text-3');
+         let text1 = document.querySelector('.animate_text-1');
+         let text2 = document.querySelector('.animate_text-2');
+         let text3 = document.querySelector('.animate_text-3');
 
-         // text1.style.display = 'block';
-         // text2.style.display = 'none';
-         // text3.style.display = 'none';
+         text1.style.display = 'block';
+         text2.style.display = 'none';
+         text3.style.display = 'none';
          
-         // text1.classList.add('activeText')
-         // setTimeout(() => {
-         //    text1.classList.remove('activeText')
-         // }, 3000);
+         text1.classList.add('activeText')
+         setTimeout(() => {
+            text1.classList.remove('activeText')
+         }, 3000);
 
-         // setTimeout(() => {
-         //    text1.style.display = 'none';
-         //    text2.style.display = 'block';
-         //    text3.style.display = 'none';
+         setTimeout(() => {
+            text1.style.display = 'none';
+            text2.style.display = 'block';
+            text3.style.display = 'none';
             
-         //    text2.classList.add('activeText');
-         //    setTimeout(() => {
-         //       text2.classList.remove('activeText')
-         //    }, 3000);
-         // }, 3000);
+            text2.classList.add('activeText');
+            setTimeout(() => {
+               text2.classList.remove('activeText')
+            }, 3000);
+         }, 3000);
 
-         // setTimeout(() => {
-         //    text1.style.display = 'none';
-         //    text2.style.display = 'none';
-         //    text3.style.display = 'block';
+         setTimeout(() => {
+            text1.style.display = 'none';
+            text2.style.display = 'none';
+            text3.style.display = 'block';
 
-         //    text3.classList.add('activeText');
-         //    setTimeout(() => {
-         //       text3.classList.remove('activeText')
-         //    }, 3000);
-         // }, 6000);
+            text3.classList.add('activeText');
+            setTimeout(() => {
+               text3.classList.remove('activeText')
+            }, 3000);
+         }, 6000);
 
-         // setTimeout(() => {
-         //    this.addActive()
-         // }, 9000);
+         setTimeout(() => {
+            this.addActive()
+         }, 9000);
       }
    },
 
    mounted() {
-      // this.addActive()
+      this.addActive()
    },
 }
 </script>
